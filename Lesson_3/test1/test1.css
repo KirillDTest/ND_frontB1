@@ -1,6 +1,6 @@
 div p {
     color: blue;
 }
-#test {
+div + p {
     color: red;
 }
