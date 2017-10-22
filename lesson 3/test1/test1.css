@@ -1,6 +1,6 @@
 div p{
     color: blue;
 }
-#myid1 {
+div + p {
     color: red;
 }
