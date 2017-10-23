@@ -1,0 +1,40 @@
+* {									/*Step 1. Setting background-color to all elements
+							             cause * gives opportunity to appeal to all elements on paged*/
+	background-color: green;
+	
+}
+
+
+a:visited {color:gold;}				/*Step3. Setting visited link color*/
+
+/*a.class1:visited {color:green;}      It means that style is applied only to link with class 1 and to link that was visited*/
+
+[href="#"] {						/*Step4. Setting style using attribute and its parameter*/
+	font-size: 30px;
+}
+
+div { 							    /*Step2. Setting div dimensions*/
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	margin: 10px;                    /*div will have new bgndclr which was set the last*/
+								     /*In F12 Chrome bgndclr:red will be crossed out*/
+}
+
+div.class1 {
+	background-color: black;
+}
+
+div.class1#myid1 {
+	background-color: silver;
+}
+
+body div {background-color: aqua;}    /*Step5. To all div that are inside body block, bgndclr will be aqua, as this style is set the last*/
+
+div>p {font-size: 30px;}              /*Step6. To all p that are children to div is applied pointed propertie*/
+
+div+p {color: green; font-size: 25px;}   /*Step7. To p that is neighbour to div-element is applied pointed propertie*/
+
+a~div {width: 300px;}                    /*Step8. To all div-elements that are followed
+											after a-element will be applied this propertie
+											and as it is set the last, width will be 200px;/*
