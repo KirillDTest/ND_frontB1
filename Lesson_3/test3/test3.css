@@ -1,4 +1,6 @@
-
+div#myid1.class1 {
+    color: gold;
+}
 
 
 
@@ -9,8 +11,4 @@
 #myid1.class1 {
 	color: grey;
 	font-size: 20px;
-}
-
-#myid1.class1 {
-    color: gold;
 }

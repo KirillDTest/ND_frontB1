@@ -1,0 +1,21 @@
+#red {
+	background-color: rgb(255,0,0);
+}
+
+#blue {
+	background-color: rgb(0,0,255);
+}
+
+#green {
+	background-color: rgb(0,255,0);
+}
+
+#purple {
+	background-color: rgba(170,0,255,0.6);
+}
+
+div {
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+}
