@@ -1,0 +1,6 @@
+div {
+	color: blue;
+}
+div+p {
+	color: red;
+}
