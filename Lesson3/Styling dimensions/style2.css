@@ -1,0 +1,46 @@
+body {
+	height: 500px;                              /*Step8.1. Setting height to body-element*/
+	font-size: 50px;							/*Step9.1. Setting font-size to body-element*/	
+}
+
+html {
+	font-size: 100px;								/*Step10.1. Setting font-size to html-el-t to 100px;*/
+	font-size: 1vw;									/*Step11.1. Setting font-size to 1 vw (1 % from browser window width)*/
+}
+
+div {
+	background-color: purple !important;        /*Step6. Thus we setting div bgndclr to purple.
+														 As, in this step "! important" is pointed
+														 it has higher priority than attribute style in tag
+														 and especially	higher than in steps 1-4*/
+}
+
+#myid1 {										/*Step4. Setting style TO ANY!!! element with id = #myid.*/
+	background-color: green;
+	width: 50%;									/*Step7. Setting div block width to 50% from body-element
+														   (as % is being taken from parent-element width)*/
+
+	margin-top: 10%;							/*Step8.2. Setting margin-top in % ratio from body-element width.
+														   But if body-element width has fixed value (for instance width: 1500px;), div margin-top won't be changing
+														   (changing window width wont change body width and therefore div margin-top won't be changing)*/
+	height: 3em;								/*Step9.2. Setting div height to em*parent-e-t font-size (50px*3em)*/
+	width: 4rem;								/*Step10.2,11,2. !!!!PlEASE NOTE THE HIERARCHY OF PROPERTIES INSIDE THIS SELECTOR!!!
+															Setting div height to rem*html font-size (100px*4rem)
+															Setting div width  to rem*html font-size (1vw*4rem)		*/
+														
+}
+
+div.myclass1 {								    /*Step3. Setting style to div with myclass1.
+														 hierarchy */
+	background-color: silver;
+}
+
+div {                                           /*Step1. Setting div block style*/
+	width: 100px;
+	height: 100px;
+	background-color: black;
+}
+
+div {background-color: gold;}                   /*Step2. Setting div bgndclr style gold.
+														 As this selector is set the last (after step1), it has higher
+														 priority than selector in step1 */
