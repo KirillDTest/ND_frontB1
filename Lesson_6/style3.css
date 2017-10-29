@@ -74,12 +74,13 @@ span.grandchild3_1_1	{position: absolute;
 					 font-weight: 700;}
 
 .child4		{position:absolute;
-			 border: 2px solid #ffffff;
-			 border-radius: 50% 50%;
+			 top:33px;
+			 left:1049px;
 			 width:41px;
 			 height:41px;
-			 top:33px;
-			 left:1049px;}
+			 border: 2px solid #ffffff;
+			 border-radius: 50% 50%;
+			 box-sizing: border-box;}
 
 
 .fa-bars {position:absolute;
@@ -98,7 +99,7 @@ span.grandchild3_1_1	{position: absolute;
 .parent2 {
 	position:relative;
 	width:1200px;
-	height: 631px;
+	height: 532px;
 	background-color: #f1f1f1;
 }
 .child5 {
