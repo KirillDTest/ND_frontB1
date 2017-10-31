@@ -1,62 +1,87 @@
 * {
     margin: 0;
+    padding: 0;
 }
 body {
     font-family: "Open Sans", sans-serif;
 }
 .parent {
     background-color: #6FE0F7;
-    height: 550px;
+    height: 470px;
     border-top: 5px solid red;
+    width: 1200px;
 }
 .container1{
     background-color: #6FE0F7;
-    position: absolute;
+    position: relative;
     width: 400px;
     height: 150px;
-    top: 40px;
-    left: 150px;
+    top: 0px;
+    left: 0px;
 }
 .image4 {
     height: 50px;
     width: 50px;
-    position: absolute;
+    position: relative;
+    left: 100px;
+    top: 35px;
 }
-.image5 {
-    height: 28px;
+.child1 {
+    position: absolute;
     width: 28px;
-    position: absolute;
-    left: 11px;
-    top: 11px;
+    height: 28px;
+    font-size: 57px;
+    font-weight: bold;
+    left: 110px;
+    top: 25px;
+    color: white;
+    
 }
+
 
 .child2{
     position: absolute;
-    left: 60px;
+    left: 161px;
     font-weight: bold;
     font-size: 20px;
+    width: 166px;
+    height: 16px;
+    top: 33px;
+    white-space: nowrap;
+    letter-spacing: 0.3px;
 }
 .child3{
     position: absolute;
     left: 60px;
     top: 23px;
     font-size: 17px;
+    width: 152px;
+    height: 18px;
+    left: 161px;
+    top: 59px;
+    text-transform: capitalize;
+    letter-spacing: 0.1px;
+    white-space: nowrap; 
+    
 }
 .container2 {
     position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 30px;
-    right: 100px;
+    width: 41px;
+    height: 41px;
+    top: 33px;
+    left:  1049px;
     border-radius: 50%;
     border: 1px solid white;
+    box-sizing: border-box;
+    
 }
 .fa-bars {
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     position: absolute;
-    left: 12px;
-    top: 9px;
+    left: 9px;
+    top: 8px;
+    font-weight: 100;
 }
 
 .container3{
@@ -64,166 +89,186 @@ body {
     background-color: #6FE0F7;
     width: 400px;
     height: 200px;
-bottom: 240px;
-    left: 550px;   
+bottom: 288px;
+    left: 440px;   
 }
 .class4 {
     position: absolute;
-    left: 100px;
-    font-size: 40px;
+    left: 27px;
+    font-size: 83px;
     color: white;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: -2px;
+    top: -3px;
+   
 }
 .class5 {
     position: absolute;
-    left: 0px;
-    top: 50px;
+    left: -17px;
+    top:83px;
     font-size: 30px;
     color: rgb(255,255,255);
        font-weight: bold;
 }
 .parent2 {
     background-color: rgb(250,240,220);
-    height: 560px;
+    height: 532px;
     position: relative;
+    width: 1200px;
 }
 .container4{
     background-color:rgb(250,240,220) ;
-   
     width: 250px;
     height: 300px;
-    position: absolute;
-    top: 220px;
+    position: relative;
+    top: 2px;
     left: 150px;
 
 }
 .class6 {
     background-color: white;
     position: absolute;
-    height: 190px;
-    width: 190px;
-    left: 25px;
+    height: 162px;
+    width: 162px;
+    left: 34px;
+    top: 0px;
+    top: -38px;
 }
 .image3 {
-    height: 100px;
-    width: 100px;
+    height: 79px;
+    width: 93px;
     position: absolute;
-    left: 45px;
-    top: 45px;
+    left: 36px;
+    top: 41px;
 }
 .child4 {
     position: absolute;
-   top:  210px;
-    left: -20px;
+   top:  186px;
+    left: -26px;
     font-weight: 800px;
     font-size: 24px;
+    white-space: nowrap;
+    letter-spacing: 0.7px;
     
 }
 .child5 {
      position: absolute;
-   top:  240px;
-    left: 30px;
+   top:  214px;
+    left: 34px;
     font-weight: 800px;
-    font-size: 27px;
+    font-size: 24px;
+    letter-spacing: 0.7px;
 }
 .container5{
     background-color:rgb(250,240,220) ;
     width: 250px;
     height: 300px;
     position: absolute;
-    top: 220px;
+    top: 223px;
     left: 435px;
 }
 .class7 {
     background-color: #6FE0F7;
-    position: absolute;
-    height: 190px;
-    width: 190px;
-    left: 170px;
+    position:absolute;
+    height: 162px;
+    width: 162px;
+    left: 85px;
+    top: 27px;
+    border-radius: 5%;
 }
 .image2 {
-    height: 100px;
-    width: 100px;
+    height: 83px;
+    width: 87px;
     position: absolute;
-    left: 45px;
-    top: 45px;
+    left: 38px;
+    top: 40px;
 }
 .child6 {
      position: absolute;
-   top:  210px;
-    left: -20px;
+   top:  186px;
+    left: -26px;
     font-weight: 800px;
     font-size: 24px;
+    letter-spacing: 0.7px;
+    white-space: nowrap;
 }
 .child7 {
     position: absolute;
-   top:  240px;
-    left: 30px;
+   top:  215px;
+    left: 35px;
     font-weight: 800px;
-    font-size: 27px;
+    font-size: 24px;
+    letter-spacing: 0.7px;
 }
 .container6 {
     background-color:rgb(250,240,220) ;
     width: 250px;
     height: 300px;
     position: absolute;
-    top: 220px;
-    left: 870px;
+    top: 223px;
+    left: 811px;
 }
 .class8 {
      background-color: white;
     position: absolute;
-    height: 190px;
-    width: 190px;
-    left: 170px;
+    height: 162px;
+    width: 162px;
+    left: 44px;
+    top: 27px;
+    border-radius: 5%;
 }
 .image1 {
-    height: 100px;
-    width: 100px;
+    height: 94px;
+    width: 90px;
     position: absolute;
-    left: 45px;
-    top: 45px;
+    left: 38px;
+    top: 34px;
 }
 .child8 {
     position: absolute;
-   top:  210px;
-    left: -20px;
+   top:  186px;
+    left: -25px;
     font-weight: 800px;
     font-size: 24px;
+    letter-spacing: 0.7px;
+    white-space: nowrap;
 }
 .child9 {
      position: absolute;
-   top:  240px;
-    left: 30px;
+   top:  215px;
+    left: 34px;
     font-weight: 800px;
-    font-size: 27px;
+    font-size: 24px;
+    letter-spacing: 0.7px;
 }
 .container7 {
     background-color: white;
-    height: 250px;
-    width: 800px;
-    position: absolute;
-    top: -130px;
-    left: 300px;
-    border-radius: 5%;
+    height: 286px;
+    width: 834px;
+    position: relative;
+    top: -105px;
+    left: 184px;
+    border-radius: 7%;
 } 
 .child10 {
     font-weight: bold;
     color: rgb(0,0,0);
-   right: 350px;
+   left: 327px;
     position: absolute;
-    font-size: 27px;
-    top: 15px;
+    font-size: 36px;
+    top: 42px;
+    letter-spacing: -0.6px;
     
 }
 .child11 {
-    bottom: 70px;
+    bottom: 29px;
     position: absolute;
-    left: 30px;
-    font-size: 23px;
-    letter-spacing: 1px;
-    line-height: 24px;
+    left: 33px;
+    font-size: 22px;
+    letter-spacing: 0.2px;
+    line-height: 34px;
+    width: 766px;
+    height: 124px;
 }
 h2 {
     border-bottom: 2px solid maroon;
@@ -236,13 +281,14 @@ h2 {
     height: 472px;
     position: relative;
     width: 1348px;
+    width: 1200px;
 }
 .container8 {
-    top: 56px;
+    top: 45px;
     background-color:#fa6900 ;
     width: 706px;
     height: 56px;
-    left: 321px;
+    left: 247px;
    position: absolute;
     
 }
@@ -252,13 +298,18 @@ h2 {
     font-weight: 300;
     color: #fffefe;
     line-height: 34px;
+    top: -10px;
+    position: absolute;
+    letter-spacing: 0.7px;
+    left: -75px;
+    text-align: center;
    
 }
 .container9 {
-    top: 152px;
+    top: 148px;
     height: 289px;
     width: 498px;
-    left: 178px;
+    left: 161px;
     background-color: rgba(255,255,255,0.1);
     position: relative;
 }
@@ -272,18 +323,19 @@ h2 {
 }
 .class11 {
     position: absolute;
-    left: 40px;
-    top: 3px;
+    left: 43px;
+    top: 5px;
 }
 
 .class10 {
-    border-top: 25px solid #535a6c;
+    border-top: 27px solid #535a6c;
     opacity: 0.5;
+    
 }
 .container10 {
-    top: -137px;
+    top: -141px;
     height: 289px;
-    width: 498px;
+    width: 390px;
     left: 676px;
     background-color: rgba(255,255,255,0.1);
     position: relative;
@@ -299,8 +351,8 @@ h2 {
 .class13 {
  background-color: white;
  position: absolute;
- top: 3px;
- left: 65px;
+ top: 5px;
+ left: -40px;
  width: 420px;
  height: 15px;
  border-radius: 7px;
@@ -309,20 +361,20 @@ h2 {
 
 
 .class12 {
-    border-top: 25px solid #535a6c;
+    border-top: 27px solid #535a6c;
     opacity: 0.5;
 }
 .container11 {
-    top: -426px;
+    top: -430px;
     height: 289px;
-    width: 478px;
-    left: 426px;
+    width: 444px;
+    left: 385px;
     background-color: white;
     position: relative;
 }
 .fa-ellipsis-h {
-    top: 0px;
-    left: 10px; 
+    top: 3px;
+    left: 13px; 
     position: absolute;
     color: rgba(255,255,255,);
     border-radius: 50%;
@@ -331,22 +383,22 @@ h2 {
 .class15  {
  background-color: white;
  position: absolute;
- top: 3px;
+ top: 7px;
  left: 45px;
- width: 420px;
+ width: 388px;
  height: 15px;
  border-radius: 7px;
 }
 .fa-search {
  position: absolute;
- left: 400px;
+ left: 375px;
  top: 2px;
  font-size: 10px;
  color: #898E9B;
 }
 
 .class14 {
-    border-top: 25px solid #535a6c;;
+    border-top: 27px solid #535a6c;;
 }
 .fa-angle-left {
    top: 300px;
@@ -357,51 +409,53 @@ h2 {
 }
 
 .class17 {
- width: 30px;
- height: 30px;
+ width: 27px;
+ height: 27px;
  border: 2px solid #7F7F7F;
  border-radius: 50%;
  position: absolute;
- top: 300px;
- left: 450px;
+ top: 297px;
+ left: 401px;
 }
 
 .fa-angle-left {
  font-size: 35px;
  position: absolute;
  left: 7px;
- top: -4px;
+ top: -5px;
  color: #7F7F7F;
 }
 
 .class18 {
- width: 30px;
- height: 30px;
+ width: 27px;
+ height:27px;
  border: 2px solid #7F7F7F;
  border-radius: 50%;
  position: absolute;
- top: 300px;
- left: 850px;
+ top: 297px;
+ left: 780px;
 }
 
 .fa-angle-right {
  font-size: 35px;
  position: absolute;
- left: 9px;
- top: -4px;
+ left: 8px;
+ top: -5px;
  color: #7F7F7F;
 }
 .parent4 {
     background-color: #f1f1f1;
-    height: 550px;
+    height: 527px;
     position: relative;
+    width: 1200px;
+    z-index: 2;
 }
 .container13{
     background-color: #f1f1f1;
     height: 300px;
-    top: 30px;
+    top: 47px;
     width: 350px;
-    left: 500px;
+    left: 431px;
     position: relative;
 }
 .class19 {
@@ -414,48 +468,54 @@ h2 {
 }
 .class20 {
     position: absolute;
-    top: 40px;
+    top: 44px;
     left: 45px;
 }
 .class21 {
     width: 270px;
     font-size: 26px;
     font-weight: bold;
-    top: 220px;
+    top: 208px;
     position: absolute;
     font-weight: 700;
+    left: -10px;
+    letter-spacing: 0.2px;
 }
 .class22 {
     width: 270px;
     font-size: 22px;
-    top: 250px;
+    top: 238px;
     position: absolute;
-    left: 5px;
+    left: 1px;
     font-weight: 300;
+    
 }
 .container14 {
     height: 70px;
     width: 750px;
-    left: 300px;
+    left: 244px;
     background-color: #f1f1f1;
     position: relative;
     top: 33px;
+    
 }
 .class23 {
     width: 750px;
-    left: 5px;
+    left: 9px;
     position: absolute;
     font-size: 16px;
     height: 70px;
     text-align: center;
     line-height: 24px;
+    top: 6px;
+    letter-spacing: 0.3px;
 }
 .container15 {
     width: 150px;
     height: 30px;
     position: relative;
     background-color: #f1f1f1;
-    left: 617px;
+    left: 545px;
     top: 100px;
 }
 .class24 {
@@ -465,7 +525,7 @@ h2 {
     border: 2px;
     background-color: #69d2e7;
     left: 4px;
-    top: 6px;
+    top: 9px;
     position: absolute;
 }
 .class25 {
@@ -474,8 +534,8 @@ h2 {
     height: 18px;
     border: 2px;
     background-color: white;
-    left: 64px;
-    top: 6px;
+    left: 47px;
+    top: 9px;
     position: absolute;
 }
 .class26 {
@@ -484,7 +544,329 @@ h2 {
     height: 18px;
     border: 2px;
     background-color: white;
-    left: 122px;
-    top: 6px;
+    left: 89px;
+    top: 9px;
     position: absolute;
 }
+.parent5 {
+    width: 1200px;
+    height: 532px;
+    background-color: #fa6900;
+    position: relative;
+    z-index: 1;
+}
+.container16{
+    width: 620px;
+    height: 695px;
+    background-color: #ffffff;
+    left: 583px;
+    position: absolute;
+    border-bottom-left-radius: 49%;
+    border-top-left-radius: 46%;
+    top: -79px;
+}
+.container17 {
+    width: 380px;
+    height: 54px;
+    left: 101px;
+    top: 142px;
+    background-color:#fa6900 ;
+    position: absolute;
+}
+.class27 {
+    font-size: 26px;
+    font-weight: 700;
+    position: absolute;
+    color: white;
+    letter-spacing: 0.5px;
+}
+.class28 {
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    letter-spacing: 0.1px;
+    top: 29px;
+    left: -1px;
+}
+.container18 {
+    width: 433px;
+    height: 173px;
+    left: 101px;
+    top: 242px;
+    position: absolute;
+    background-color:#fa6900 ;
+}
+.class29 {
+    font-size: 16px;
+    font-weight: 300;
+    top: 3px;
+    color: white;
+    position: absolute;
+}
+.class30 {
+    font-size: 16px;
+    font-weight: 300;
+    top: 59px;
+    color: white;
+    position: absolute;
+}
+.class31 {
+     font-size: 16px;
+    font-weight: 300;
+    top: 118px;
+    color: white;
+    position: absolute;
+}
+.parent6 {
+    background-color: #f1f1f1;
+    height: 552px;
+    width: 1200px;
+    z-index: 2;
+    position: relative;
+}
+.container19 {
+    top: 92px;
+    left: 101px;
+    width: 300px;
+    height: 75px;
+    background-color: #f1f1f1;
+    position: absolute;
+}
+.image7 {
+    position: absolute;
+    
+}
+.class32 {
+    position: absolute;
+    left: 9px;
+    top:-8px;
+    font-size: 57px;
+    font-weight: 700;
+    color: white;
+}
+.class33 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    top: 1px;
+    left: 62px;
+    position: absolute;
+}
+.class34 {
+    position: absolute;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000000;
+    top: 26px;
+    left: 60px;
+}
+.container20 {
+    left: 100px;
+    top: 175px;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    background-color: #f1f1f1;
+}
+.class35 {
+    border: 1px solid #000000;
+    width: 40px;
+    height: 38px;
+    position: absolute;
+}
+.fa-facebook {
+   font-size: 26px;
+    left: 12px;
+    top: 8px;
+    position: absolute;
+}
+.class36 {
+    border: 1px solid #000000;
+    width: 40px;
+    height: 38px;
+    position: absolute;
+    left: 40px; 
+    }
+.fa-twitter {
+    font-size: 26px;
+    left: 12px;
+    top: 8px;
+    position: absolute;
+}
+.class37 {
+    border: 1px solid #000000;
+    width: 40px;
+    height: 38px;
+    position: absolute;
+    left: 80px; 
+}
+.fa-pinterest-p {
+    font-size: 26px;
+    left: 12px;
+    top: 8px;
+    position: absolute;
+}
+.class38 {
+    border: 1px solid #000000;
+    width: 40px;
+    height: 38px;
+    position: absolute;
+    left: 120px; 
+}
+.fa-linkedin {
+     font-size: 26px;
+    left: 12px;
+    top: 8px;
+    position: absolute;
+}
+.container21 {
+    top: 234px;
+    left: 100px;
+    width: 459px;
+    height: 221px;
+    background-color: #f1f1f1;
+    position: absolute;
+}
+.class39 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #000000;
+    position: absolute;
+    letter-spacing: 0.3px;
+}
+.class40 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #000000;
+    position: absolute;
+    letter-spacing: 0.3px;
+    top: 128px;
+    }
+.container22 {
+    left: 726px;
+    top: 92px;
+    width: 142px;
+    height: 29px;
+    background-color: #f1f1f1;
+    position: absolute;
+}
+.class41 {
+    font-size: 26px;
+    font-weight: 700;
+    position: absolute;
+    left: 1px;
+    top: -1px;
+}
+.container23 {
+    left: 727px;
+    top: 165px;
+    width: 450px;
+    height: 101px;
+    position: absolute;
+    background-color: #f1f1f1;
+}
+.class42 {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 93px;
+    width: 93px;position: absolute;
+    top: 3px;
+}
+.class43 {
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    left: 120px;
+    letter-spacing: 0.3px;
+    top: 2px;
+}
+.class44 {
+    font-weight: 400;
+    font-size: 14px;
+    position: absolute;
+    left: 119px;
+    top: 35px;
+    letter-spacing: 0.5px;
+}
+.container24 {
+     left: 727px;
+    top: 288px;
+    width: 450px;
+    height: 101px;
+    position: absolute;
+    background-color: #f1f1f1;  
+    }
+.class45 {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 93px;
+    width: 93px;position: absolute;
+    top: 3px;
+    top: 127px;
+}
+.class46 {
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    left: 119px;
+    letter-spacing: 0.3px;
+    top: 127px;
+}
+.class47 {
+    font-weight: 400;
+    font-size: 14px;
+    position: absolute;
+    left: 119px;
+    top: 35px;
+    letter-spacing: 0.5px;
+    top: 127px;
+}
+.container25 {
+     left: 727px;
+    top: 411px;
+    width: 450px;
+    height: 101px;
+    position: absolute;
+    background-color: #f1f1f1;  
+    }
+.parent7 {
+    width: 1200px;
+    height: 68px;
+background-color: #69d2e7;
+    position: relative;
+}
+.container26{
+    width: 240px;
+    height: 14px;
+    left: 99px;
+    top: 27px;
+    position: absolute;
+    background-color: #69d2e7;
+}  
+.class48 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    position: absolute;
+    letter-spacing: 0.4px;
+}
+.container27{
+    width: 300px;
+    height: 20px;
+    left: 857px;
+    top: 27px;
+    position: absolute;
+    background-color: #69d2e7;
+}      
+.class49 {
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: 0.3px;
+}   
+    
+    
+    
+    
