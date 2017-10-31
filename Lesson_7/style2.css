@@ -4,10 +4,11 @@
 }
 
 body {
-    font-family: "Open Sans",sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #wrapper {
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -26,7 +27,6 @@ body {
     height: 50px;
     top: 33px;
     left: 99px;
-    letter-spacing: 1px;
 }
 
 .child1 {
@@ -75,7 +75,6 @@ body {
     font-weight: 700;
     text-align: center;
     color: white;
-    letter-spacing: 4px;
     position: absolute;
     left: 45px;
 }
@@ -88,7 +87,6 @@ body {
     position: absolute;
     top: 93px;
     left: 3px;
-    word-spacing: 6px;
 }
 
 .container3 {
@@ -102,21 +100,21 @@ body {
 
 .child6 {
     position: absolute;
-    width: 49px;
-    height: 40px;
-    left: 3px;
+    width: 41px;
+    height: 41px;
+    left: 8px;
     top: 2.3px;
     border: 1px solid white;
     border-radius: 50%;
+    box-sizing: border-box;
 }
 
 .fa-bars {
     font-size: 30px;
     color: white;
     position: absolute;
-    left: 11px;
+    left: 7px;
     top: 4px;
-    box-sizing: border-box;
 }
 
 .parent2 {
@@ -163,6 +161,7 @@ hr {
     top: 127px;
     line-height: 34px;
     font-weight: 300;
+    width: 766px;
 }
 
 .container5 {
@@ -297,6 +296,7 @@ hr {
     border-top: 29px solid #52596C;
     border-radius: 7px;
     z-index: 2;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
 }
 
 .child19 {
@@ -355,6 +355,7 @@ hr {
     position: absolute;
     top: 121px;
     left: 17px;
+    opacity: 0.5;
 }
 
 .fa-angle-left {
@@ -373,6 +374,7 @@ hr {
     position: absolute;
     top: 121px;
     left: 396px;
+    opacity: 0.5;
 }
 
 .fa-angle-right {
@@ -394,6 +396,7 @@ hr {
     border-radius: 7px;
     z-index: 1;
     opacity: 0.5;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
 }
 
 .child22 {
@@ -447,6 +450,7 @@ hr {
     border-radius: 7px;
     z-index: 1;
     opacity: 0.5;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
 }
 
 .child23 {
@@ -494,7 +498,7 @@ hr {
     font-size: 26px;
     position: absolute;
     top: 254px;
-    left: 55px;
+    left: 51px;
     font-weight: 700;
     text-align: center;
 }
@@ -583,7 +587,6 @@ hr {
 .container15 h2 {
     font-size: 26px;
     font-weight: 700;
-    word-spacing: 4px;
 }
 
 .container15 p {
@@ -647,7 +650,6 @@ hr {
     height: 50px;
     top: 91px;
     left: 99px;
-    letter-spacing: 1px;
 }
 
 .child28 {
@@ -749,7 +751,6 @@ hr {
 .container21 p {
     font-size: 26px;
     font-weight: 700;
-    letter-spacing: 1px;
 }
 
 .container22 {
@@ -867,7 +868,7 @@ hr {
 .ltr2 {
     position: absolute;
     top: 24px;
-    left: 854px;
+    left: 856px;
     color: #ffffff;
     font-size: 14px;
     font-weight: 400;
