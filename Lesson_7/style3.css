@@ -287,6 +287,7 @@ span.grandchild3_1_1	{position: absolute;
 		  height: 289px;
 		  background-color: #ffffff;
 		  border-radius:6px 6px 5px 5px;
+		  box-shadow:0px 10px 35px 15px rgba(39,43,46,0.5);
 		  }
 
 .top	  {position:absolute;
@@ -344,6 +345,7 @@ span.grandchild3_1_1	{position: absolute;
 		  height: 289px;
 		  background-color: #ffffff;
 		  border-radius:10px 10px 5px 5px;
+		  box-shadow:0px 0px 35px 15px rgba(39,43,46,0.3);
 		  opacity: 0.5;
 		  }
 
@@ -370,6 +372,7 @@ span.grandchild3_1_1	{position: absolute;
 		  height: 289px;
 		  background-color: #ffffff;
 		  border-radius:10px 10px 5px 5px;
+		  box-shadow:0px 0px 35px 15px rgba(39,43,46,0.3);
 		  opacity: 0.5;
 		  }
 
@@ -452,10 +455,10 @@ span.rectangle2_2 {position:absolute;
 			}
 
 .rectangle3 {position:absolute;
-			 top:481px;
-			 left:550px;
-			 width: 18px;
-			 height: 18px;
+			 top:479px;
+			 left:548px;
+			 width: 22px;
+			 height: 22px;
 			 border: 2px solid #ffffff;
 			 border-radius:50%;
 			 background-color: #69d3e8;
