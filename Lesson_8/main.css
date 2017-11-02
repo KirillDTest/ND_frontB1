@@ -18,14 +18,14 @@
 }
 
 /* Контейнер для 3-х Элементов, дабы в дальнейшем чтобы можно было использовать этот контейнер для позиционирований этих 3-х Элементов сразу, а не по отдельности каждый элемент */
-.header__container_grey {
+.header__container_greyElements {
     width: 350px;
     height: 100px;
     margin: 45px 0 0 25px;
 }
 
 /* B element-grey для удобства добавлю еще header__ , чтобы было понятней где имеено находится Элемент с цветом - серый. */
-.header__element-grey {
+.header__element_grey {
     width: 80px;
     height: 48px;
     background-color: #808080;
