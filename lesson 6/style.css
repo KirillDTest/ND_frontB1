@@ -5,15 +5,20 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
+#wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
 .parent {
     background-color: #6FE0F7;
     height: 470px;
     border-top: 5px solid red;
     width: 1200px;
+    position: relative;
 }
 .container1{
     background-color: #6FE0F7;
-    position: relative;
+    position: absolute;
     width: 400px;
     height: 150px;
     top: 0px;
@@ -88,7 +93,7 @@ body {
     position: absolute;
     background-color: #6FE0F7;
     width: 400px;
-    height: 200px;
+    height: 80px;
 bottom: 288px;
     left: 440px;   
 }
@@ -527,6 +532,7 @@ h2 {
     left: 4px;
     top: 9px;
     position: absolute;
+    box-shadow: 0 0 2px; rgba(0,0,0,-0.2);
 }
 .class25 {
     border-radius: 50%;
@@ -537,6 +543,7 @@ h2 {
     left: 47px;
     top: 9px;
     position: absolute;
+     box-shadow: 0 0 2px; rgba(0,0,0,-0.2);
 }
 .class26 {
     border-radius: 50%;
@@ -547,6 +554,7 @@ h2 {
     left: 89px;
     top: 9px;
     position: absolute;
+     box-shadow: 0 0 2px; rgba(0,0,0,-0.2);
 }
 .parent5 {
     width: 1200px;
@@ -773,6 +781,7 @@ h2 {
     height: 93px;
     width: 93px;position: absolute;
     top: 3px;
+    background-color: #ffffff;
 }
 .class43 {
     font-weight: 700;
