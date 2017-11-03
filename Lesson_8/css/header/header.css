@@ -2,6 +2,7 @@
     width: 500px;
     height: 300px;
     background-color: aqua;
+    position: relative;
 }
 
 /*Понимаем что лого находится в header*/
@@ -12,10 +13,12 @@
 }
 
 /* Контейнер для 3-х Элементов, дабы в дальнейшем чтобы можно было использовать этот контейнер для позиционирований этих 3-х Элементов сразу, а не по отдельности каждый элемент */
-.header__container_ofgreyElements {
-    width: 350px;
-    height: 100px;
-    margin: 45px 0 0 25px;
+.header__container_ofGreyElements {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 150px;
+    left: 30px;
 }
 
 /* B element-grey для удобства добавлю еще header__ , чтобы было понятней где имеено находится Элемент с цветом - серый. */
