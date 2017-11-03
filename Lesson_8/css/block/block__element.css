@@ -1,8 +1,10 @@
-.header__element1 {
+
+
+.block__element {
 	position:absolute;
 	width:200px;
 	height:100px;
 	background-color: grey;
-	top:100px;
-	left:50px;
+	top:350px;
+	left:250px;
 }

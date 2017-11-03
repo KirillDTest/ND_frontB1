@@ -1,8 +1,10 @@
-	@import url(css/header.css);
-	@import url(css/header__logo.css);
-	@import url(css/header__element1.css);
-	@import url(css/header__element2.css);
-	@import url(css/header__element3.css);
+	@import url("block/block.css");
+	@import url("block/block__logo.css");
+	@import url("block/block__element.css");
+	@import url("block/block__element_left_25px.css");
+	@import url("block/block__element_left_250px.css");
+	@import url("block/block__element_left_475px.css");
+
 
 * {
 	margin:0;
