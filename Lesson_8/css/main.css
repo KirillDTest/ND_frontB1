@@ -1,0 +1,16 @@
+	@import url(css/header.css);
+	@import url(css/header__logo.css);
+	@import url(css/header__element1.css);
+	@import url(css/header__element2.css);
+	@import url(css/header__element3.css);
+
+* {
+	margin:0;
+}
+
+body {
+	background-color: black;
+	width:1200px;
+	height: 800px;
+}
+
