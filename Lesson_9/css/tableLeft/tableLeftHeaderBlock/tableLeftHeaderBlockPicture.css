@@ -1,0 +1,8 @@
+.tableLeftHeaderBlockPicture {
+	position:absolute;
+	top: 0px;
+	/*z-index:-1;*/
+	left: -119px;
+	width: 1000px;
+	height: 450px;
+}

@@ -1,0 +1,16 @@
+@import url("tableLeftHeaderBlockLogo/tableLeftHeaderBlockLogo.css");
+@import url("tableLeftHeaderBlockLogo/tableLeftHeaderBlockLogo__title.css");
+@import url("tableLeftHeaderBlockPicture.css");
+@import url("tableLeftHeaderBlockLogo/fa.css");
+@import url("tableLeftHeaderBlockLogo/fa-facebook.css");
+@import url("tableLeftHeaderBlockLogo/fa-twitter.css");
+@import url("tableLeftHeaderBlockLogo/fa-linkedin.css");
+@import url("tableLeftHeaderBlockLogo/fa-google-plus.css");
+
+
+
+.tableLeftHeaderBlock {
+	height: 500px;
+	background-color: #e9eae2;
+	position:relative;
+}

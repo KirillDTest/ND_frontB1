@@ -1,0 +1,8 @@
+@import url("tableLeftHeaderBlock/tableLeftHeaderBlock.css");
+@import url("tableLeft2ndBlock/tableLeft2ndBlock.css");
+
+
+.tableLeft {	
+	width: 69%;
+	position:relative;
+}
