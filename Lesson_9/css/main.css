@@ -8,10 +8,17 @@
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-table {border: 0;}
+table {border: 0;
+       border-collapse: collapse;}
 td {padding: 0;}
 
 body {
+
 	width: 1500px;
 	height: 3800px;
 }
+
+
+/*.wrapper {margin:0 auto;
+		  width:1500px;}*/
+

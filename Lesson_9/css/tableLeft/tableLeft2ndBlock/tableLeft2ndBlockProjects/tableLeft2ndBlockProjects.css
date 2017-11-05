@@ -1,5 +1,9 @@
+@import url("tableLeft2ndBlockProjectsText/tableLeft2ndBlockProjectsText.css");
+@import url("tableLeft2ndBlockProjectsText/tableLeft2ndBlockProjectsText_color_white_fontWeight_400.css");
+
 .tableLeft2ndBlockProjects {
 	position: absolute;
+	left:-2px;
 	width: 465px;
 	background-color: #ebb240;
 }

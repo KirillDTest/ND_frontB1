@@ -1,12 +1,13 @@
 .tableLeft2ndBlockProjectsText {
 	position:absolute;
-	top: 173px;
-	left: 164px;
+	top: 172px;
+	left: 166px;
 	width: 71px;
 	color: #ffffff;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 14px;
+	text-transform: uppercase;
 	color: #000000;
 }
 
