@@ -1,0 +1,465 @@
+.table {
+    border-collapse: collapse;
+    width: 1035px;
+    height: 1765px;
+}
+.header {
+    height: 500px;
+    width: 1040px;
+    position: relative;
+}
+.header__cell {
+    height: 500px;
+    width: 1035px;
+    background-color: #e9eae2;
+}
+.image1 {
+    position: absolute;
+    top: 0px;
+    left: -48px;
+}
+.container1 {
+    background-color: #e9eae2;
+    width: 170px;
+    height: 280px;
+    top: 50px;
+    left: 168px; 
+    position: absolute;
+}
+.image2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.class1 {
+    font-weight: 400;
+    font-size: 18px;   
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #393d3c;
+    top: 211px;
+    position: absolute;
+    left: 3px;
+    letter-spacing: -0.3px;
+}
+.container2 {
+    left: 188px;
+    top: 374px;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: #e9eae2;
+}
+.fa-facebook {
+    font-size: 23px;
+    top: 0px;
+    position: absolute;
+    color: #7bcfc5;
+}
+.fa-twitter {
+    left: 27px;
+    font-size: 27px;
+    top: -3px;
+    position: absolute;
+     color: #7bcfc5;
+}
+.fa-linkedin {
+    font-size: 25px;
+    top: -1px;
+    position: absolute;
+    left: 63px; 
+     color: #7bcfc5;
+}
+.fa-google-plus {
+    font-size: 25px;
+    top: -1px;
+    position: absolute;
+    left: 97px; 
+     color: #7bcfc5;
+}
+
+.second__cell {
+    height: 500px;
+    width: 465px;
+    position: absolute;
+    background-color: #ebb240;
+}
+.line {
+    left: -2px;
+    position: absolute;
+}
+.container3 {
+    width: 72px;
+    height: 87px;
+    left: 162px;
+    top: 163px;
+    position: absolute;
+}
+.class3{
+   position: absolute;
+    color: white;
+    line-height: 14px;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    top: -5px;
+    left: 4px;
+}
+.class4 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #fefefe;
+    left: 214px;
+    top: 313px;
+    position: absolute;
+}
+.image3 {
+    position: absolute;
+    left: 135px;
+    top: 169px;
+}
+.third__cell {
+    height: 494px;
+    width: 566px;
+    position: absolute;
+    left: 465px;
+    background-color: white;
+}
+.image4 {
+    left: 217px;
+    position: absolute;
+}
+.class5 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 14px;
+    text-transform: uppercase;
+    left: 101px;
+    top: 89px;
+    position: absolute;
+}
+.container4 {
+    top: 123px;
+    background-color: white;
+    width: 215px;
+    height: 63px;
+    left: 98px;
+    position: absolute;
+}
+.class6 {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #333333;
+    left: 4px;
+    letter-spacing: -0.5px;
+    word-spacing: 1px;
+}
+.image5 {
+    position: absolute;
+    left: 109px;
+    top: 257px;
+    color: #ebb240;  
+}
+.class7 {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #333333;
+    left: 137px;
+    top: 255px;
+    position: absolute;
+}
+.image6 {
+    position: absolute;
+    left: 169px;
+    top: 386px;
+}
+.class8 {
+    color: #FE6E6E;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    top: 415px;
+    left: 169px;
+    position: absolute;
+}
+.fourth__cell {
+    width: 295px;
+    height: 461px;
+    position: absolute;
+    top: 1000px;
+}
+.class9 {
+    position: absolute;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 14px;
+    text-transform: uppercase;
+    top: 44px;
+    left: 31px;
+    color: #ffffff;
+}
+.container5 {
+    width: 150px;
+    height: 46px;
+    left: 32px;
+    top: 78px;
+    position: absolute;
+ 
+}
+.class10 {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #fefefe;
+    letter-spacing: -0.2px;
+}
+.image7 {
+    position: absolute;
+    left: 30px;
+    top: 161px;
+    color: #ebb240;  
+}
+.class11 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: white;
+    left: 58px;
+    top: 164px;
+    position: absolute;
+}
+.image8 {
+    position: absolute;
+    left: 99px;
+    top: 208px;
+    
+}
+.class12 {
+    color: #FE6E6E;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    top: 236px;
+    left: 101px;
+    position: absolute;
+}
+
+.fifth__cell{
+    width: 732px;
+    height: 461px;
+    position: absolute;
+    left: 299px;
+    top:1000px;
+    background-color: #eaeaea;
+}
+
+.image9 {
+    top: 40px;
+    position: absolute;
+       background-color: #eaeaea;
+}
+.class13 {
+    top: 95px;
+    left: 358px;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    word-spacing: -2px;
+}
+.container6 {
+    top: 128px;
+    left: 360px;
+    position: absolute;
+    width: 155px;
+    height: 49px;
+    
+   
+}
+.class14 {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #333333;
+    letter-spacing: -0.1px;
+    position: absolute;
+}
+.image10 {
+    position: absolute;
+    left: 536px;
+    top: 96px;
+    color: #ebb240;  
+}
+.class15 {
+   font-size: 18px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    position: absolute;
+    color: #333333;
+    top: 98px;
+    left: 563px;
+}
+.image11 {
+    position: absolute;
+    left: 596px;
+    top: 137px;
+    
+}
+.class16 {
+    color: #FE6E6E;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    top: 165px;
+    left: 596px;
+    position: absolute;
+}
+.sixth__cell {
+    height: 297px;
+    width: 730px;
+    position: absolute;
+    top: 1464px;
+}
+.image12 {
+    position: absolute;
+    top: 28px;
+    left: 131px;
+}
+.class17 {
+    position: absolute;
+    left: 152px;
+    top: 207px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 14px;
+    color: #333333;
+    text-transform: uppercase;
+}
+.container7 {
+    top: 232px;
+    left: 152px;
+    position: absolute;
+    width: 180px;
+    height: 49px;
+   
+}
+.class18 {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #333333;
+    position: absolute;
+    word-spacing: -3px;
+}
+.image13 {
+    position: absolute;
+    left: 362px;
+    top: 229px;
+    color: #ebb240;  
+}
+.class19 {
+   font-size: 18px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    position: absolute;
+    color: #333333;
+    top: 233px;
+    left: 390px;
+}
+.image14 {
+    position: absolute;
+    left: 544px;
+    top: 228px;
+    
+}
+.class20 {
+    color: #FE6E6E;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    top: 257px;
+    left: 545px;
+    position: absolute;
+}
+.seventh__cell {
+    top: 1464px;
+    left: 734px;
+    position: absolute;
+    width: 296px;
+    height: 297px;
+}
+.class21 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    position: absolute;
+    top: 83px;
+    left: 158px;
+}
+.container8 {
+    top: 118px;
+    left: 160px;
+    position: absolute;
+    width: 180px;
+    height: 49px;
+}
+.class22 {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #333333;
+    position: absolute;
+    letter-spacing: -0.2px;
+}
+.image15 {
+    position: absolute;
+    left: 125px;
+    top: 183px;
+    color: #ebb240;  
+}
+.class23 {
+   font-size: 18px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    position: absolute;
+    color: #333333;
+    top: 186px;
+    left: 154px;
+    word-spacing: -2px;
+}
+.image16 {
+    position: absolute;
+    left: 192px;
+    top: 225px;
+    
+}
+.class24 {
+    color: #FE6E6E;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    top: 254px;
+    left: 193px;
+    position: absolute;
+}
