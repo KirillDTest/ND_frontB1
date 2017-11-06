@@ -1,0 +1,19 @@
+@import url("tableLeft4thBlockSesann/tableLeft4thBlockSesann.css");
+@import url("tableLeft4thBlockSesann/tableLeft4thBlockSesann__Img.css");
+@import url("tableLeft4thBlockSesann/tableLeft4thBlockSesannName.css");
+@import url("tableLeft4thBlockSesann/tableLeft4thBlockSesannName__Persons.css");
+@import url("tableLeft4thBlockSesann/tableLeft4thBlockSesannProjectButton.css");
+@import url("tableLeft4thBlockSesann/tableLeft4thBlockSesannLikeCounter.css");
+
+@import url("tableLeft4thBlockAlessi/tableLeft4thBlockAlessi.css");
+@import url("tableLeft4thBlockAlessi/tableLeft4thBlockAlessi__PlateImg.css");
+@import url("tableLeft4thBlockAlessi/tableLeft4thBlockAlessiProjectButton.css");
+@import url("tableLeft4thBlockAlessi/tableLeft4thBlockAlessiLikeCounter.css");
+@import url("tableLeft4thBlockAlessi/tableLeft4thBlockAlessiName.css");
+@import url("tableLeft4thBlockAlessi/tableLeft4thBlockAlessiName__Persons.css");
+
+.tableLeft4thBlock {
+	position: absolute;
+	width: 1035px;
+	height: 465px
+}

@@ -1,0 +1,14 @@
+/*@import url("tableRightHeaderBlock__lineRightHeader.css");    */
+@import url("tableRightHeaderBlock__lineRightHeader.css");
+@import url("tableRightHeaderBlock__Border.css");
+@import url("tableRightHeaderBlock__Menu.css");
+@import url("tableRightHeaderBlock__Address.css");
+@import url("tableRightHeaderBlock__Phone.css");
+
+.tableRightHeaderBlock {
+	width: 465px;
+	height: 500px;
+	background-color: #7acec3;
+}
+
+

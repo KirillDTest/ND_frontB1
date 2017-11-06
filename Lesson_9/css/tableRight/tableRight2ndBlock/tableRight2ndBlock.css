@@ -1,0 +1,14 @@
+@import url("tableRight2ndBlock__KettleImg.css");
+@import url("tableRight2ndBlockLikeCounter.css");
+@import url("tableRight2ndBlockProjectButton.css");
+@import url("tableRight2ndBlockText.css");
+@import url("tableRight2ndBlockDescription.css");
+
+.tableRight2ndBlock {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 465px;
+	height: 250px;
+	background-color: #dfe0d9;
+}

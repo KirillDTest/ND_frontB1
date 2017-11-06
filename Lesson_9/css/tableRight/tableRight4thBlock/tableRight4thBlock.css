@@ -1,0 +1,12 @@
+@import url("tableRight4thBlock__ChairImg.css");
+@import url("tableRight4thBlockProjectButton.css");
+@import url("tableRight4thBlockLikeCounter.css");
+@import url("tableRight4thBlockText.css");
+@import url("tableRight4thBlockDescription.css");
+
+.tableRight4thBlock {
+	position: relative;
+	width: 465px;
+	height: 250px;
+	background-color: #ffffff;
+}

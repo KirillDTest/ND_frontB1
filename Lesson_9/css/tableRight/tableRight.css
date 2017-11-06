@@ -1,0 +1,13 @@
+@import url("tableRightHeaderBlock/tableRightHeaderBlock.css");
+@import url("tableRight2ndBlock/tableRight2ndBlock.css");
+@import url("tableRight3rdBlock/tableRight3rdBlock.css");
+@import url("tableRight4thBlock/tableRight4thBlock.css");
+@import url("tableRight5thBlock/tableRight5thBlock.css");
+
+
+.tableRight {
+	position: absolute;
+	top: 0px;
+	left: 1035px;
+	width: 465px;
+}

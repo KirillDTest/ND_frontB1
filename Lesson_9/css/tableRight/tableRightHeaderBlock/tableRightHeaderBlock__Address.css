@@ -1,0 +1,11 @@
+.tableRightHeaderBlock__Address {
+	position: absolute;
+	top: 261px;
+	left: 60px;
+	width: 111px;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 14px;
+	text-transform: uppercase;
+}

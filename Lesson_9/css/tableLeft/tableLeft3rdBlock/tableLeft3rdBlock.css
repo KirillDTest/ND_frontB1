@@ -1,8 +1,22 @@
 @import url("tableLeft3rdBlockLouis/tableLeft3rdBlockLouis.css");
 @import url("tableLeft3rdBlockLouis/tableLeft3rdBlockLouisHeartWhite.css");
-@import url("tableLeft3rdBlockLouis/tableLeft3rdBlockLouis__text.css");
-@import url("tableLeft3rdBlockLouis/tableLeft3rdBlockLouis__text_width_105_height_15_fontSize_18_top_163_left_58");
-@import url("tableLeft3rdBlockLouis/tableLeft3rdBlockLouis__text_width_137_height_46_fontSize_12_lineheight_12_top_79.css");
+@import url("tableLeft3rdBlockLouis/tableLeft3rdBlockLouis__text_position_style.css");
+@import url("tableLeft3rdBlockLouis/tableLeft3rdBlockLouis__text2_position_style.css");
+@import url("tableLeft3rdBlockLouis/tableLeft3rdBlockLouis__text3_position_style.css");
+@import url("tableLeft3rdBlockLouis/tableLeft3rdBlockLouis__text4_position_style.css");
+@import url("tableLeft3rdBlockLouis/tableLeft3rdBlockLouis__arrowIcon.css");
+
+@import url("tableLeft3rdBlockChairPuf/tableLeft3rdBlockChairPuf.css");
+@import url("tableLeft3rdBlockChairPuf/tableLeft3rdBlockChairPufLikeCounter.css");
+@import url("tableLeft3rdBlockChairPuf/tableLeft3rdBlockChairPufContact.css");
+@import url("tableLeft3rdBlockChairPuf/tableLeft3rdBlockChairPufContact__position_style.css");
+@import url("tableLeft3rdBlockChairPuf/tableLeft3rdBlockChairPufViewProjectButton/tableLeft3rdBlockChairPufViewProjectButton.css");
+@import url("tableLeft3rdBlockChairPuf/tableLeft3rdBlockChairPufViewProjectButton/tableLeft3rdBlockChairPufViewProjectButton__arrowIcon.css");
+@import url("tableLeft3rdBlockChairPuf/tableLeft3rdBlockChairPufik/tableLeft3rdBlockChairPufik.css");
+@import url("tableLeft3rdBlockChairPuf/tableLeft3rdBlockChairPufik/tableLeft3rdBlockChairPufik__Img.css");
+@import url("tableLeft3rdBlockChairPuf/tableLeft3rdBlockChairPufik/tableLeft3rdBlockChairPufik__Img.css");
+
+
 
 .tableLeft3rdBlock {
 	height: 465px;

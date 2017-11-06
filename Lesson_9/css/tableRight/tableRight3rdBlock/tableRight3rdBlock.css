@@ -1,0 +1,12 @@
+@import url("tableRight3rdBlockProjectButton.css");
+@import url("tableRight3rdBlockLikeCounter.css");
+@import url("tableRight3rdBlockText.css");
+@import url("tableRight3rdBlockBlockDescription.css");
+@import url("tableRight3rdBlock__DeepChairImg.css");
+
+.tableRight3rdBlock {
+	position: relative;
+	width: 465px;
+	height: 465px;
+	background-color: #e9eae2;
+}
