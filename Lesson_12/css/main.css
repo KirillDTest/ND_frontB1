@@ -15,6 +15,10 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    color: black;
+}
+
 .div {
     background-color: #fff;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
@@ -44,20 +48,31 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
+/*****************   INPUT *****************/
 .search {
-    width: 261px;
-    height: 30px;
     border: 1px solid rgba(205, 205, 205, 0.38);
     background-color: #fafafa;
     margin: -12px 652px;
     position: relative;
 }
 
-[type="search"] {
-    text-indent: 10px;
+.my__input {
     width: 262px;
     height: 31px;
+    transition: all .5s;
+    font-size: 16px;
+}
+
+.my__input:hover{
+  background-color: #FEE1D1;
+}
+
+.my__input:focus {
+  background-color: #fff;
+}
+
+input::placeholder {
+    text-indent: 10px;
     opacity: 0.19;
     color: #5b5b5b;
     font-size: 18px;
@@ -70,6 +85,7 @@ body {
    left: 219px;
    top: 3px;
 }
+/**************** INPUT END *******************/
 
 .section {
     height: 375px;
