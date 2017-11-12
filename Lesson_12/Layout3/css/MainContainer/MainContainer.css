@@ -1,0 +1,13 @@
+@import url('navigationBar/navigationBar.css');
+@import url('headerImageBlock.css');
+@import url('guideBlock/guideBlock.css');
+@import url('welcomeBlock/welcomeBlock.css');
+@import url('footerBlock/footerBlock.css');
+
+.MainContainer {
+	width: 929px;
+	height: 1110px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}

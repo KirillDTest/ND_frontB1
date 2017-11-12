@@ -1,0 +1,11 @@
+.guideBlockPlaces	{
+	width: 224px;
+	height: 375px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 12px 12px 22px 11px;
+}

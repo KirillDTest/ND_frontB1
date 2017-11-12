@@ -1,0 +1,10 @@
+.pictureBlock {
+	width: 215px;
+	height: 166px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	/*box-sizing: border-box;*/
+
+}

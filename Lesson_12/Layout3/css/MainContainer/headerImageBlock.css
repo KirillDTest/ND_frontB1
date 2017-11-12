@@ -1,0 +1,6 @@
+.headerImageBlock {
+	height: 375px;
+	background-image: url('../../img/headerImage.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}

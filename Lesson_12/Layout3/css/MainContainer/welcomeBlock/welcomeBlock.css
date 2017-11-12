@@ -1,0 +1,13 @@
+@import url('pictureBlock/pictureBlock.css');
+@import url('pictureBlock/pictureBlock__imageStyling.css');
+@import url('welcomeBlockText/welcomeBlockText.css');
+@import url('welcomeBlockText/welcomeBlockText__greetings.css');
+@import url('welcomeBlockText/welcomeBlockText__text.css');
+
+.welcomeBlock {
+	
+	height: 187px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+	background-color: #ffffff;
+	padding:11px 14px 10px 11px;
+}

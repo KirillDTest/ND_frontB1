@@ -1,0 +1,11 @@
+@import url("guideBlockPlaces/guideBlockPlaces.css");
+@import url("guideBlockPlaces/guideBlockPlaces__description.css");
+@import url("guideBlockPlaces/guideBlockPlaces__learnMore.css");
+
+
+.guideBlock {
+	height: 375px;
+	background-color: #afa7a1;
+	box-shadow: none;
+	padding: 0;
+}

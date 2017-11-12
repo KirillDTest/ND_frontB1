@@ -1,0 +1,16 @@
+@import url('menuBar/menuBar.css');
+@import url('searchBar/searchBar.css');
+@import url('searchBar/searchBar__Input.css');
+
+.navigationBar {
+	width: 929px;
+	height: 55px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 48px;
+	padding-right: 14px;
+	box-sizing: border-box;
+}

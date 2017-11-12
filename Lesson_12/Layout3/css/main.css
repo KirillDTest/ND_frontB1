@@ -1,0 +1,27 @@
+@import url('MainContainer/MainContainer.css');
+
+
+* {margin: 0;
+   padding: 0;
+   font-family: 'Rokkitt', serif;}
+
+body {
+	width: 1024px;
+	height: 1365px;
+	background-image: url('../img/background.png');
+	background-repeat: no-repeat;
+	display: flex;
+	flex-flow: column wrap;
+	padding: 137px 49px 118px 46px;
+}
+
+.main__logo {
+	align-self: center;
+	width: 199px;
+	opacity: 0.28;
+	color: #545454;
+	margin: -118px 0 0 -120px; 
+	font-size: 105px;
+	font-weight: 400;
+	
+}
