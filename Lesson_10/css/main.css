@@ -11,8 +11,8 @@ body {
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
     padding-left: 47px;
-    box-sizing: border-box;
     padding-top: 26px;
+    box-sizing: border-box;
 }
 
 .div {
@@ -36,7 +36,7 @@ body {
 }
 
 .menu {
-    width: 301px;
+    width: 436px;
     height: 24px;
     font-size: 18px;
     color: #5b5b5b;
@@ -83,7 +83,6 @@ body {
     width: 929px;
     height: 375px;
     margin-top: 17px;
-    font-family: Arial;
     display: flex;
     justify-content: space-between;
 }
@@ -104,11 +103,11 @@ body {
     color: #343433;
     font-size: 12px;
     font-weight: 400;
-    text-indent: 39px;
+    text-indent: 35px;
 }
 
 .mrg-txt {
-    margin: 5px;
+    margin: 5px 7px 0 14px;
 }
 
 .more-txt {
@@ -116,8 +115,8 @@ body {
     font-size: 12px;
     font-weight: 400;
     text-decoration: underline;
-    margin-top: 28px;
-    margin-right: 15px;
+    margin-top: 27px;
+    margin-right: 12px;
 }
 
 .more-mrg {
@@ -144,7 +143,6 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-   
 }
 
 .s3-txt {
