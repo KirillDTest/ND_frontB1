@@ -1,9 +1,10 @@
-.searchBar__Input {
-	opacity: 1;
+.searchBar__Input, input::placeholder {
+	
+	width: 224px;
+	opacity: 0.9;
 	color: #5b5b5b;
 	font-size: 18px;
 	font-weight: 400;
 	font-style: italic;
-	line-height: 112.91px;
-
+	text-indent: 14px;
 }
