@@ -21,7 +21,7 @@ margin: 50px 0 0;
 
 .Menu:hover ~ .content, .content:hover {
      background-color: grey;
-    box-shadow: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
     display: block;
     width: 140px;
     height: 70px;
@@ -30,21 +30,21 @@ ol {
     list-style-type: square;
 }
 .class1 {
-width: 100px;
+width: 50px;
     height: 0px;
     transition-duration: 3s;
     overflow: hidden;
     position: absolute;
-    top: 100px;
-    left: 100px;
+    top: 50px;
+    left: 250px;
    
 }
-.About us:hover + .class1, .class1:hover {
+.About-us:hover ~ .class1, .class1:hover {
      background-color: grey;
-    box-shadow: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     display: block;
     width: 140px;
-    height: 70px;
+    height: 120px;
 }
 ol {
     list-style-type: square;
