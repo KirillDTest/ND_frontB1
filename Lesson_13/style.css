@@ -1,0 +1,54 @@
+*  {margin: 0;
+	padding:0;}
+
+p {
+	width: 60px;
+	height:30px;
+	text-align: center;
+	background-color: red;
+	border: 2px solid black;
+}
+
+
+
+.navigation {
+	width: 500px;
+	height: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: blue;
+	transition-duration: 1s;
+	overflow: hidden;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 18px;
+	box-shadow:  0 5px 5px -1px grey;
+}
+
+p:hover ~ .navigation, .navigation:hover {
+	height: 50px;	
+}
+
+.menu-list {
+	position: absolute;
+	width: 100px;
+	height: 0px;
+	background-color: grey;
+	border: 1px solid black;
+	border-radius: 7px 7px;
+	overflow: hidden;
+	font-size: 15px;
+	text-align: center;
+	margin-left: -20px;
+	opacity: 0;
+	transition-duration: 1s;
+}
+
+
+.menu:hover > .menu-list, .menu-list:hover  {
+	height: 100px;
+	opacity: 1;
+
+}
