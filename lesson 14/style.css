@@ -6,7 +6,7 @@ div{
     overflow: hidden;
     transition-duration: 3s;
 }
-p:hover + div, div:hover {
+p:hover ~ div, div:hover {
     background-color: crimson;
     width: 300px;
     height: 300px;
