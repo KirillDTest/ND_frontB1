@@ -1,0 +1,82 @@
+@keyframes tree {
+    0% {
+        background-color: white;
+    }
+    30% {
+        background-color: green;
+       
+    }
+    65% {
+        background-color: #A49900;
+    }
+    85% {
+        background-color: #EEECCD;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+@keyframes child1 {
+    100% {
+        top: 220px;
+        width: 50px;
+        height: 230px;
+    }
+}
+
+@keyframes child2 {
+    100% {
+        left: 87px;
+        top: 220px;
+        width: 25px;
+        height: 90px;
+    }
+}
+
+@keyframes child3 {
+    100% {
+        right: 87px;
+        top: 220px;
+        width: 25px;
+        height: 130px;
+    }
+}
+
+.tree {
+    position: relative;
+    animation-name: tree;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.child1 {
+    animation-name: child1;
+}
+.child2 {
+    left: 0;
+    transform: rotate(-45deg);
+    animation-name: child2;
+    transform-origin: -237% 7%;
+}
+.child3 {
+    transform: rotate(45deg);
+    right: 0;
+    animation-name: child3;
+    transform-origin: 478% 18%;
+}
+
+.together {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    position: absolute;
+    top: 0;
+    background-color: brown;
+    width: 0;
+    height: 0;
+}
