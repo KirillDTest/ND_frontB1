@@ -1,0 +1,68 @@
+@keyframes tree {
+    0% {
+        background-color: aliceblue;
+    }
+    25% {
+        background-color: rgb(0,255,127)
+    }
+    50% {
+        background-color: rgb (0,100,0)
+    }
+    65% {
+        background-color: #9ACD32;
+    }
+    80% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: aliceblue;
+    }
+}
+
+
+.treetop {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    animation-name: tree;
+   display: flex;
+    justify-content: center;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.trunk {
+
+    width: 50px;
+    height: 150px;
+    background-color: brown;
+    animation-name: tree;
+    left: 125px;
+    top: 225px;
+    position: absolute;
+    
+}
+.branch {
+    transform-origin: 30% 70%;
+    width: 25px;
+    height: 75px;
+    background-color: brown;
+    position: absolute;
+    animation-name: tree;
+    animation-iteration-count: infinite;
+    left: 125px;
+    top: 180px;
+    transform: rotate(-45deg);
+}
+.t2 {
+    top: 175px;
+    left: 150px;
+    transform: rotate(45deg);
+    transform-origin: 30% 70%;
+    width: 25px;
+    height: 75px;
+    background-color: brown;
+    position: absolute;
+    animation-name: tree;
+    animation-iteration-count: infinite;
+}
+
