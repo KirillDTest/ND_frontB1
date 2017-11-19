@@ -1,0 +1,127 @@
+/*************************************************************************
+**************************************************************************
+****************FIRST VARIANT*********************************************
+*******menu-list appears and unfold from one point************************
+**************************************************************************/
+
+
+*  {margin: 0;
+	}
+
+ul {
+	padding-left: 25px;
+}
+
+p {
+	width: 60px;
+	height:30px;
+	text-align: center;
+	background-color: red;
+	border: 2px solid black;
+}
+
+.navigation {
+	width: 500px;
+	height: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: blue;
+	transition-duration: 0.5s;
+	transition-delay: -100ms;
+	overflow: hidden;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 18px;
+	box-shadow:  0 5px 5px -1px grey;
+}
+
+p:hover ~ .navigation, .navigation:hover {
+	height: 50px;	
+}
+
+/*For .menu  css is not been set because of unnecessarity*/
+
+
+.menu-list {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	background-color: grey;
+	border: 0px solid black;
+	border-radius: 7px 7px;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-size: 12px;
+	text-align: justify;
+	transition-duration: 0.5s;
+	transition-delay: -100ms;
+}
+
+.menu:hover > .menu-list, .menu-list:hover {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+}
+
+
+/*****************************************************************************
+****************SECOND VARIANT (my way)***************************************
+********menu-list appears and unfold below "menu:; and "about list" menus*****
+******************************************************************************/
+/*
+*  {margin: 0;
+	}
+
+p {
+	width: 60px;
+	height:30px;
+	text-align: center;
+	background-color: red;
+	border: 2px solid black;
+}
+
+
+
+.navigation {
+	width: 500px;
+	height: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: blue;
+	transition-duration: 1s;
+	overflow: hidden;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 18px;
+	box-shadow:  0 5px 5px -1px grey;
+}
+
+p:hover ~ .navigation, .navigation:hover {
+	height: 50px;	
+}
+
+/*For .menu  css is not been set because of unnecessarity*/
+/*
+.menu-list {
+	position: absolute;
+	width: 100px;
+	height: 0px;
+	background-color: grey;
+	border: 1px solid black;
+	border-radius: 7px 7px;
+	overflow: hidden;
+	font-size: 15px;
+	text-align: center;
+	opacity: 0;                   /*If opacity isn't set border-width will be visible when menu-list is curtailed*/
+/*	transition-duration: 1s;
+}
+
+
+.menu:hover > .menu-list, .menu-list:hover  {
+	height: 100px;
+	opacity: 1;                   /*If opacity isn't set menu-list won't be visible*/
+/*}    */

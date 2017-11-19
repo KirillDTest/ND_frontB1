@@ -1,54 +1,46 @@
-*  {margin: 0;
-	padding:0;}
-
-p {
-	width: 60px;
-	height:30px;
-	text-align: center;
-	background-color: red;
-	border: 2px solid black;
+@keyframes myanimation {       /*Step6. Adding chain-animation*/
+	0%   {left: 150px;}
+	50%  {top: 150px;}
+	75%  {top: 0px;}
+	100% {left: 0px;}
 }
 
-
-
-.navigation {
-	width: 500px;
-	height: 0px;
-	padding-left: 30px;
-	padding-right: 30px;
-	background-color: blue;
-	transition-duration: 1s;
-	overflow: hidden;
-	color: black;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	font-size: 18px;
-	box-shadow:  0 5px 5px -1px grey;
+@keyframes newani {       /*Step10. Adding chain-animation*/
+	from {left: 0px;}
+	to   {left: 150px;}
 }
 
-p:hover ~ .navigation, .navigation:hover {
-	height: 50px;	
+body {
+	display: flex;			   /*Step2. Positioning element div*/
+	justify-content: center;   /*Step2. It is used to center element after he has been oversized*/
 }
 
-.menu-list {
-	position: absolute;
+div {
+	position: relative;
 	width: 100px;
 	height: 0px;
-	background-color: grey;
-	border: 1px solid black;
-	border-radius: 7px 7px;
-	overflow: hidden;
-	font-size: 15px;
-	text-align: center;
-	margin-left: -20px;
-	opacity: 0;
-	transition-duration: 1s;
+	background-color: red;
+	transition-duration: 1s;    /*Step1. Setting element properties transition-duration*/
+	/*opacity: 0;*/
+	overflow: hidden;           /*Step4. This string hides div (which have height=0) content when it overflows his borders*/
 }
 
-
-.menu:hover > .menu-list, .menu-list:hover  {
-	height: 100px;
+p:hover~div, div:hover {
+	background-color: aqua;
+	width: 200px;
+	height: 200px;
 	opacity: 1;
-
+	/*filter: grayscale(0.7) brightness(0.5);    /*Step5.   Adding filter*/
+	/*filter: hue-rotate(90deg);                 /*Step5.1. Adding filter*/
+	
+	/*animation-name: myanimation;             /*Step6.1. Adding chain-animation*/
+	animation-name: newani;                    /*Step10.3. Adding chain-animation*/
+	animation-duration: 2s;
+	animation-iteration-count: 2;            /*Step7. Specifying how many times animation will be repeated*/
+	/*animation-direction: alternate;          /*Step8. Setting animation direction in @keyframe alternate 0%->100% 100%->0%*/
+									 				  /*alternate-reverse 100%->0% 0%->100%*/
+	/*animation-delay: -2s;                    /*Step8.*/
+	animation-timing-function: ease-in;      /*Step9. Specifying linearity of animation playback*/
+	animation-fill-mode: both; 					/*Step10.2 Specifying whether animation will start or end
+															"both" works with animation-direction: alternate;*/
 }

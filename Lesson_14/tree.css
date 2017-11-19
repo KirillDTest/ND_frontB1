@@ -1,0 +1,66 @@
+@keyframes seasons {
+	0%   {background-color: #1BB52E;}
+	25%  {background-color: #12752A;}
+	50%  {background-color: #FFD50D;}
+	75%  {background-color: transparent;}
+	100% {background-color: #1BB52E;}
+}
+
+
+* {
+	margin: 0;
+}
+
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;	
+}
+
+.tree {
+	width: 200px;
+	height: 335px;
+	/*box-sizing: border-box;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;	
+}
+
+.leaves {
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+	border-radius: 50% 50%;
+	position: absolute;
+	animation-name: seasons;
+	animation-duration: 12s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+/*here we don't need to point transition-duration,
+  cause it specifies transition time from one block of properties to another (hover) see lesson13*/
+	
+}
+
+.trunk {
+	width: 40px;
+	height: 160px;
+	background-color: brown;
+	position: absolute;
+	margin-top: 135px;
+}
+
+.branch_short {
+	width: 20px;
+	height: 50px;
+	margin-top: 95px;
+	transform: rotate(-45deg);
+	transform-origin: 0 100% 0;
+}
+
+.branch_long {
+	width: 20px;
+	height: 80px;
+	margin-top: 60px;
+	transform: rotate(45deg);
+}
+
