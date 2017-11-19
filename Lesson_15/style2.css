@@ -1,0 +1,68 @@
+@keyframes rotation {
+	100% {transform: rotateX(360deg) rotateY(360deg) translate(200px);}
+}
+
+.cube {
+	transform-style: preserve-3d;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	animation-name: rotation;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.container {
+	top: 200px;
+	left: 200px;
+	perspective: 400px;
+	perspective-origin: 50% 50%;
+	width: 200px;
+	height: 200px;
+	font-size: 80px;
+	position: relative;
+}	
+
+.cube div {
+	border: 2px solid black;
+	opacity: 0.5;
+	box-sizing: border-box;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+div.front {
+	background-color: red;
+	transform: translateZ(100px);
+	width: 400px;
+}
+
+div.back {
+	transform: rotateY(180deg) translateZ(100px);
+	background-color: green;
+	width: 400px;
+}
+
+.left {
+	transform: rotateY(-90deg) translateZ(100px);
+	background-color: orange;
+}
+
+.right {
+	transform: rotateY(90deg) translateZ(300px);
+	background-color: blue;
+}
+
+div.top {
+	transform: rotateX(90deg) translateZ(100px);
+	background-color: gold;
+	width: 400px;
+}
+
+div.bottom {
+	transform: rotateX(-90deg) translateZ(100px);
+	background-color: aqua;
+	width: 400px;
+}
