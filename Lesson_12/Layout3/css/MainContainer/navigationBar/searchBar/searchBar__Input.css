@@ -1,6 +1,7 @@
 .searchBar__Input, input::placeholder {
 	
-	width: 224px;
+	width: 261px;
+	height: 30px;
 	opacity: 0.9;
 	color: #5b5b5b;
 	font-size: 18px;

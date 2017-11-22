@@ -1,0 +1,21 @@
+.welcomeBlockText {
+	width: 667px;
+	height: 157px;
+	color: #343433;
+	font-size: 12px;
+	font-weight: 400;
+	padding: 0;
+	box-shadow: none;
+}
+
+@media screen and (max-width: 768px) {
+	.welcomeBlockText {
+		width: 100%;
+		height: auto;
+		color: #343433;
+		font-size: 12px;
+		font-weight: 400;
+		padding: 0;
+		box-shadow: none;
+}
+}

@@ -1,0 +1,28 @@
+@import url("guideBlockPlaces/guideBlockPlaces.css");
+@import url("guideBlockPlaces/guideBlockPlaces__description.css");
+@import url("guideBlockPlaces/guideBlockPlaces__learnMore.css");
+
+
+.guideBlock {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+	height: 375px;
+	background-color: #afa7a1;
+	box-shadow: none;
+	padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.guideBlock {
+		display: flex;
+		justify-content: space-around;
+		align-content: space-around;
+		flex-wrap: wrap;
+		height: auto;
+		background-color: #afa7a1;
+		box-shadow: none;
+		padding: 0px;
+}
+}

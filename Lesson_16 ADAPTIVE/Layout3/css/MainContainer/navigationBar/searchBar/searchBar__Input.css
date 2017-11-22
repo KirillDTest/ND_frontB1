@@ -1,0 +1,26 @@
+.searchBar__Input, input::placeholder {
+	
+	width: 261px;
+	height: 30px;
+	opacity: 0.9;
+	color: #5b5b5b;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: italic;
+	text-indent: 14px;
+}
+
+@media screen and (max-width: 768px) {
+	.searchBar__Input, input::placeholder {
+	
+		width: 97%;
+		height: 30px;
+		opacity: 0.9;
+		color: #5b5b5b;
+		font-size: 18px;
+		font-weight: 400;
+		font-style: italic;
+		text-indent: 14px;
+}
+
+}

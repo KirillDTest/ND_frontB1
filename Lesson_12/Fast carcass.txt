@@ -1,1 +1,53 @@
 https://jsfiddle.net/fjmd40wj/1/
+
+<div class="wrapper">
+  <div class="logo">LOGO</div>
+  <div class="block"></div>
+  <div class="block picture"></div>
+  <div class="block content"></div>
+  <div class="block welcome"></div>
+  <div class="block footer"></div>
+</div>
+
+
+.wrapper {
+  background-color: #AFA7A1;
+  display: flex;
+  flex-direction: column;
+  width: 1024px;
+  height: 1365px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 44px 0 118px;
+}
+
+.logo {
+  font-size: 89px;
+}
+
+* {
+  margin: 0;
+}
+
+.block {
+  background-color: white;
+  height: 50px;
+  width: 906px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+}
+
+.picture {
+  height: 375px;
+}
+
+.content {
+  height: 376px;
+}
+
+.welcome {
+  height: 188px;
+}
+
+.footer {
+  height: 57px;
+}

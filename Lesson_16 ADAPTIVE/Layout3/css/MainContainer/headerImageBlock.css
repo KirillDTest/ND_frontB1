@@ -1,0 +1,18 @@
+.headerImageBlock {
+	height: 375px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.headerImageBlock > img {
+		width: 100%;
+	}
+
+@media screen and (max-width: 768px) {
+	.headerImageBlock {
+		height: auto;
+}
+}

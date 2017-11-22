@@ -1,0 +1,24 @@
+.pictureBlock {
+	width: 215px;
+	height: 166px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	/*box-sizing: border-box;*/
+}
+
+.pictureBlock > img {
+	width: 105px;
+	height: 79px;
+}
+
+@media screen and (max-width: 768px) {
+	.pictureBlock {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+}
+}

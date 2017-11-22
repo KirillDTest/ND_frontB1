@@ -1,0 +1,22 @@
+.menuBar {
+	display: flex;
+	justify-content: space-between;
+	width: 414px;
+	color: #5b5b5b;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 112.91px;
+}
+
+
+@media screen and (max-width: 768px) {
+	.menuBar {
+		display: flex;
+		justify-content: space-between;
+		width: 43%;
+		color: #5b5b5b;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 112.91px;
+}
+}

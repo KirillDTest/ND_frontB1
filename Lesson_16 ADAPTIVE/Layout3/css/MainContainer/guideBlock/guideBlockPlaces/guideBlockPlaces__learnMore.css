@@ -1,0 +1,21 @@
+.guideBlockPlaces__learnMore {
+	width: 40px;
+	color: #000000;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+	align-self: flex-end;
+	margin-bottom: -2px;
+}
+
+@media screen and (max-width: 768px) {
+	.guideBlockPlaces__learnMore {
+		width: 40px;
+		color: #000000;
+		font-size: 1rem;
+		font-weight: 400;
+		text-decoration: underline;
+		align-self: flex-end;
+		margin: 0;
+}
+}

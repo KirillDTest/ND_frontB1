@@ -1,0 +1,15 @@
+@import url('footerBlock__information.css');
+
+.footerBlock {
+	height: 55px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+	background-color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+	.footerBlock {
+		height: auto;
+		box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+		background-color: #ffffff;
+}
+}

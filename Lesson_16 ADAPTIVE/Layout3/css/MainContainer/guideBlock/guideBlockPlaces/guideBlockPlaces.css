@@ -1,0 +1,35 @@
+.guideBlockPlaces	{
+	width: 224px;
+	height: 375px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 12px 12px 22px 11px;
+}
+
+.guideBlockPlaces > img {
+	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	.guideBlockPlaces	{
+		max-width: 100%;
+		min-width: 224px;
+		width: 50%;
+		height: auto;
+		box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+		background-color: #ffffff;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		box-sizing: border-box;
+		padding: 10px;
+}
+	.guideBlockPlaces > img {
+			/*width: 50%;*/
+			height: auto;
+}
+}

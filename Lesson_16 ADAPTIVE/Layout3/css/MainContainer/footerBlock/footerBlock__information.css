@@ -1,0 +1,22 @@
+.footerBlock__information {
+	width: 434px;
+	color: #535353;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	white-space: pre;
+	margin-left: -25px;
+	margin-top: 14px;
+}
+
+@media screen and (max-width: 768px) {
+	.footerBlock__information {
+		width: 434px;
+		color: #535353;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 12px;
+		font-weight: 400;
+		white-space: pre;
+		margin: 0;
+		align-items: center;
+}

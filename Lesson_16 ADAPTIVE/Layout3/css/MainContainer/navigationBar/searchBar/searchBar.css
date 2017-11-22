@@ -1,0 +1,25 @@
+
+
+.searchBar {
+	position: relative;
+}
+
+.searchBar img	{
+	position: absolute;
+	top: 5px;
+	left: 224px;
+}
+
+
+@media screen and (max-width: 768px) {
+	.searchBar {
+		position: relative;
+	}
+
+	.searchBar img	{
+		position: absolute;
+		top: 5px;
+		left: 161px;
+}
+
+}

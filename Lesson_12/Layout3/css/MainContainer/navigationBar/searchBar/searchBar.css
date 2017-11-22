@@ -1,15 +1,13 @@
 
 
 .searchBar {
-	width: 250px;
-	height: 28px;
-	background-color: #fafafa;
-	border: 1px solid rgba(205, 205, 205, 0.38);
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	box-sizing: border-box;
-	padding-right: 11px;
-	padding-left: 0px;
+	position: relative;
 }
+
+.searchBar img	{
+	position: absolute;
+	top: 5px;
+	left: 224px;
+}
+
 
