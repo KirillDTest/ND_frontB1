@@ -40,22 +40,15 @@ a {
 }
 
 .menu {
-    width: 436px;
     height: 24px;
     font-size: 18px;
     color: #5b5b5b;
     margin-left: 47px;
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 /*****************   INPUT *****************/
-.search {
-    border: 1px solid rgba(205, 205, 205, 0.38);
-    background-color: #fafafa;
-    margin: -12px 652px;
-    position: relative;
-}
-
 .my__input {
     width: 262px;
     height: 31px;
@@ -78,12 +71,6 @@ input::placeholder {
     font-size: 18px;
     font-weight: 400;
     font-style: italic;
-}
-
-.loop {
-   position: absolute;
-   left: 219px;
-   top: 3px;
 }
 /**************** INPUT END *******************/
 
@@ -112,7 +99,7 @@ input::placeholder {
 }
 
 .s2-foto {
-    margin: 12px auto;
+    margin: 6px auto;
 }
 
 .lorem-txt {
@@ -145,14 +132,14 @@ input::placeholder {
 }
 
 .section3 {
-    height: 187px;
+    height: 172px;
     margin-top: 16px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+/*    align-items: center;*/
 }
 
-.s3-block-photo {
+.s3-block-foto {
     width: 215px;
     height: 170px;
     display: flex;
@@ -195,4 +182,81 @@ h2 {
 .footer-txt {
     margin: 0;
     color: #535353;
+}
+
+@media screen and (max-width: 768px) {   
+    .wrapper {
+        width: 100%;
+        height: 1365px;
+        background-image: url(../img/background.png);
+        background-repeat: no-repeat;
+        padding: 26px 47px 0 47px;
+        box-sizing: border-box;
+    }
+    .div {
+        width: 100%;
+    }
+    .menu {
+        margin-left: 20px;
+    }
+    .my__input {
+        width: 40%;
+    }
+    .section {
+        height: auto;
+    }
+    .bgfon {
+        width: 97%;
+        margin: 8px auto;
+    }
+    .section2 {
+        height: 29%;
+    }
+    .s2-content {
+        width: 100%;
+    }
+    .s2-foto {
+        width: 90%;
+    }
+    .section3 {
+        height: 20%;
+    }
+    .s3-foto {
+        width: 46%;
+        height: 45%;
+        margin-left: 5px;
+    }
+    .s3-block-foto {
+        width: 80%;
+        height: auto;
+    }
+    .s3-txt {
+        width: 100%;
+        margin-left: 17px;
+        margin-top: 7px;
+    }
+}
+
+@media screen and (max-width: 704px) {
+     .section2 {
+        height: 30%;
+    }
+      .section3 {
+        height: 22%;
+    }
+    .menu {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 622px) {
+    .section2 {
+        height: 33.5%;
+    }
+     .section3 {
+        height: 25.5%;
+    }
+    .menu {
+        margin-left: 5px;
+    }
 }
