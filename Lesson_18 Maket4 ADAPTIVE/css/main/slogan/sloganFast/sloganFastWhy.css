@@ -1,0 +1,17 @@
+.sloganFastWhy {
+	width: 100%;
+
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: -1px;
+	text-align: center;
+
+	margin-top: 31px;
+}
+
+@media screen and (max-width: 768px) {
+	.sloganFastWhy {
+		margin: 0;
+}
+}

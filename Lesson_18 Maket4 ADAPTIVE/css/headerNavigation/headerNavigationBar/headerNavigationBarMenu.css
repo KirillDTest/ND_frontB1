@@ -1,0 +1,75 @@
+.headerNavigationBarMenu {
+	width: 56%;
+	height: 18px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.headerNavigationBarMenu > input {
+	max-width: 24%;
+	border: none;
+	background-color: black;
+	color: #ffffff;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .headerNavigationBarMenu > input {
+      font-size: 12px; 
+}
+}
+
+
+/*********************************************
+***********Кнопки на HTML и CSS***************
+*********************************************/
+
+
+
+
+/* Скрываем чекбокс */
+/*#Info {
+  display: none;
+}
+
+/* Изменяем display:inline; на любой с блочным поведением. Подойдёт даже inline-block.
+Чтобы можно было кликать по label и переключать checkbox*/
+/*[for="Info"] {
+  display: inline-block; /* block/flex  */
+/*  position: relative;
+}
+
+[for="Info"]::after {
+  max-width: 112px;
+  background-color: black;
+  content: "ИНФОРМАЦИЯ";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+
+
+/* Стили для <p> когда нету галочки у чекбокса*/
+
+/*.Info + p {
+  position: absolute;
+  height: 0;
+  overflow: hidden;
+  transition-duration: 1s;
+  width: 200px;
+  background-color: aqua;
+}
+
+/* Стили для <p> когда галочка у чекбокса есть */
+
+/*#Info:checked ~ p {
+  height:110px;
+}

@@ -1,0 +1,41 @@
+.main {
+	max-width: 940px;
+	width: 940px;
+	height: 1396px;
+
+	margin-top: 105px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+.logo {
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 992px) {
+	.main {
+		max-width: 720px;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+	.main {
+		max-width: 540px;
+		margin-top: 63px;
+}
+}
+
+
+
+
+
+
+
+
+
+

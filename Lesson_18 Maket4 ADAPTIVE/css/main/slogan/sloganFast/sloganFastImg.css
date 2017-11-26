@@ -1,0 +1,12 @@
+.sloganFastImg {
+	width: 28px;
+	height: 28px;
+
+	margin-top: 6px;
+}
+
+@media screen and (max-width: 768px) {
+	.sloganFastImg {
+		margin: 0;
+}
+}

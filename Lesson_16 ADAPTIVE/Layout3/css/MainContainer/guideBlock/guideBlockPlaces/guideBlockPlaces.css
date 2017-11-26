@@ -18,7 +18,8 @@
 	.guideBlockPlaces	{
 		max-width: 100%;
 		min-width: 224px;
-		width: 50%;
+		/*width: 50%;    /*Variant1*/
+		width: 40%;    /*Variant2*/
 		height: auto;
 		box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
 		background-color: #ffffff;
@@ -29,7 +30,7 @@
 		padding: 10px;
 }
 	.guideBlockPlaces > img {
-			/*width: 50%;*/
+			/*width: 50%;*/            /*Can be used without this string!!!*/
 			height: auto;
 }
 }

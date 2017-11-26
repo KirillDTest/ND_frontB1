@@ -1,0 +1,35 @@
+.aboutUsBlock {
+	
+	height: 419px;
+	
+	background-color: white;
+	
+	margin: 0px;
+	padding: 55px 80px 50px 80px;
+	box-sizing: border-box;
+
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+@media screen and (max-width: 992px) {
+	.aboutUsBlock {
+		padding: 30px;
+		position: relative;		
+}
+}
+
+@media screen and (max-width: 768px) {
+	.aboutUsBlock {
+		height: 453px;
+		
+		margin: 0px;
+		padding: 10px;
+
+		flex-direction: column;
+}
+
+}

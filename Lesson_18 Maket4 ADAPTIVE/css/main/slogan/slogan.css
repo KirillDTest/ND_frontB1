@@ -1,0 +1,19 @@
+.slogan {
+	height: 157px;
+
+	margin: 0px;
+	
+	flex-direction: row;
+	justify-content: space-around;
+	/*flex-wrap: wrap;*/
+
+	color: #f7f4f1;
+}
+
+
+@media screen and (max-width: 992px) {
+	.slogan {
+		margin-top: -40px;
+}		
+}
+

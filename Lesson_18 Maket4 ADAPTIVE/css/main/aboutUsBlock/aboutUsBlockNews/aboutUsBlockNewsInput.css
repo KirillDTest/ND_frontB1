@@ -1,0 +1,16 @@
+.aboutUsBlockNewsInput {
+	width: 140px;
+	height: 44px;
+	
+	background-color: black;
+	
+	font-family: "PT Sans";
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: -1px;
+	text-align: center;
+
+	border: none;
+}

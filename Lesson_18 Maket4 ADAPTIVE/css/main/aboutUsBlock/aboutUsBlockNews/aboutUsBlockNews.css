@@ -1,0 +1,41 @@
+.aboutUsBlockNews {
+	width: 348px;
+	height: 314px;
+	
+	background-color: white;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 992px) {
+	.aboutUsBlockNews {
+		max-width: 300px;
+}
+	.aboutUsBlockNews + img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -139px;
+		margin-left: -4px;
+}
+}
+
+@media screen and (max-width: 768px) {
+	.aboutUsBlockNews {
+			max-width: 486px;
+			width: 90%;
+			height: auto;
+			align-items: center;
+}
+	.aboutUsBlockNews + img {
+			transform: rotate(90deg);
+			margin-top: -131px;
+
+}
+}
+
+

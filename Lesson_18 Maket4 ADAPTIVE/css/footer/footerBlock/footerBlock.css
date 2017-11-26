@@ -1,0 +1,25 @@
+.footerBlock {
+	width: 940px;
+	height: 193px;
+	
+	margin: 0 auto;
+
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/*.main {
+	/max-width: 940px;
+	/width: 940px;
+	/height: 1396px;
+
+	/margin-top: 105px;
+
+	/display: flex;
+	flex-direction: column;
+	/align-items: center;
+	/justify-content: space-around;
+}*/
+
+
+

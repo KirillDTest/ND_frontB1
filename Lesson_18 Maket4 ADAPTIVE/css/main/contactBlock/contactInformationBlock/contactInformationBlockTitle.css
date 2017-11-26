@@ -1,0 +1,21 @@
+.contactInformationBlockTitle {
+	width: 323px;
+}
+
+@media screen and (max-width: 768px) {
+	.contactInformationBlockTitle + p,  .contactInformationBlockTitle + p + p {
+		font-size: 10px;
+		width: 155px;
+		height: 30px;
+	
+		margin-top: -50px;
+
+		white-space: pre-line;
+		line-height: 9px;
+}
+	.contactInformationBlockTitle + p + p {
+		line-height: 5px;
+	}
+
+}
+}

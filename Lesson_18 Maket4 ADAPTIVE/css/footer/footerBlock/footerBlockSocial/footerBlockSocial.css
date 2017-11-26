@@ -1,0 +1,12 @@
+.footerBlockSocial {
+	width: 141px;
+	height: 78px;
+	
+	margin: 0;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+.footerBlockSocial > p {
+	margin: 0 auto;
+}
