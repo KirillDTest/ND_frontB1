@@ -1,4 +1,14 @@
 .footerBlockAddress {
-	width: 370px;
+	width: 30%;
 	height: 88px;
+}
+
+
+@media screen and (max-width: 768px) {
+	.footerBlockAddress {
+		width: 81%;
+		height: auto;
+		font-size: 10px;
+		text-align: center;
+}
 }

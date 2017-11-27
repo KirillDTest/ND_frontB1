@@ -1,13 +1,14 @@
 .contactInformationBlock {
-	width: 323px;
+	width: 48%;
 	height: 282px;
 }
 
 @media screen and (max-width: 768px) {
 	.contactInformationBlock {
+		width: 90%;
 		height: 182px;
 		flex-flow: row wrap;
-		justify-content: space-between;
+		justify-content: center;
 		align-content: space-between;
 	}
 

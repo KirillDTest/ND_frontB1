@@ -7,6 +7,17 @@
 	align-items: center;
 }
 
+@media screen and (max-width: 992px) {
+	.aboutUsBlockGalleryInputBlock {
+	width: 83%;
+	min-width: 235px;
+}
+	.aboutUsBlockGalleryInputBlock > input {
+		width: 40%;
+	}
+
+}
+
 @media screen and (max-width: 768px) {
 	.aboutUsBlockGalleryInputBlock {
 	width: 320px;

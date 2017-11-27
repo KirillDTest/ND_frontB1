@@ -4,11 +4,14 @@
 	<title>Document</title>
 	
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, 
+	initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	
+	<script src="https://use.fontawesome.com/89a9385ccc.js"></script>
 	<script src="https://use.fontawesome.com/edb8561ed1.js"></script>
 	<script src="https://use.fontawesome.com/d08857b22d.js"></script>
 	<script src="https://use.fontawesome.com/dcc99e4e8b.js"></script>
+
 	
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/wrapper.css">
@@ -17,18 +20,27 @@
 <body>
 	<div class="wrapper">
 		<div class="headerNavigation">
+			
 			<div class="main headerNavigationBar">
 				<div class="headerNavigationBarMenu">
-
-				<!--	<input type="checkbox" id="Info">
-					<label for="Info"></label>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum adipisci eveniet incidunt nulla. Inventore quasi eveniet aspernatur ex. Molestiae, reiciendis, consequuntur provident quibusdam consequatur similique enim ipsum ducimus magni corporis.</p>   -->
+					<div class="headerNavigationBarMenuIcon">
+						<!--<i class="fa fa-bars" aria-hidden="true"></i>-->
+						<input type="checkbox" id="Info">
+						<label for="Info"></label>
+						<ul>
+							<input type="button" value="ИНФОРМАЦИЯ">
+							<input type="button" value="НОВОСТИ">
+							<input type="button" value="ПРАЙС-ЛИСТ">
+							<input type="button" value="МАГАЗИН">
+							<input type="button" value="КОНТАКТЫ">
+						</ul>
+					</div>
+						<input type="button" value="ИНФОРМАЦИЯ">
+						<input type="button" value="НОВОСТИ">
+						<input type="button" value="ПРАЙС-ЛИСТ">
+						<input type="button" value="МАГАЗИН">
+						<input type="button" value="КОНТАКТЫ">
 					
-					<input type="button" value="ИНФОРМАЦИЯ">
-					<input type="button" value="НОВОСТИ">
-					<input type="button" value="ПРАЙС-ЛИСТ">
-					<input type="button" value="МАГАЗИН">
-					<input type="button" value="КОНТАКТЫ">
 				</div>
 				<div class="headerNavigationBarMenu headerNavigationBarLogin">
 					<img src="img/-icon-login.png">
@@ -112,14 +124,11 @@
 
 		<div class="footer">
 			<div class="main footerBlock">	
-				<div class="footerBlockAddress">БАРБЕРШОП «БОРОДИНСКИЙ»<br>
-				АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
-				КАК НАС НАЙТИ?<br>
-				ТЕЛЕФОН: +7 (495) 666-02-66
+				<div class="footerBlockAddress">БАРБЕРШОП «БОРОДИНСКИЙ» АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8 КАК НАС НАЙТИ? ТЕЛЕФОН: +7 (495) 666-02-66
 				</div>
-				<div class="main footerBlock footerBlockSocial">
+				<div class="footerBlockSocial">
 					<p>ДАВАЙТЕ ДРУЖИТЬ!</p>
-					<div class="main footerBlock footerBlockSocial footerBlockSocialBlock">	
+					<div class="footerBlockSocial footerBlockSocialBlock">	
 						<div class="footerBlockSocialBlockFacebook">
 							<i class="fa fa-vk" aria-hidden="true"></i>
 						</div>
@@ -131,7 +140,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="main footerBlock footerBlockSocial footerBlockDeveloper">
+				<div class="footerBlockSocial footerBlockDeveloper">
 					<p>РАЗРАБОТАНО</p>
 					<input type="button" value="HTMLACADEMY.RU" class="aboutUsBlockNewsInput" id="BtnHTMLACADEMY">
 				</div>

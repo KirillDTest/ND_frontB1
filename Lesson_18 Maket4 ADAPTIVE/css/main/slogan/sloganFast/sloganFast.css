@@ -16,5 +16,16 @@
 @media screen and (max-width: 992px) {
 	.sloganFast {
 		max-width: 240px;
+		min-width: 0px;
+}		
+}
+
+@media screen and (max-width: 576px) {
+	.sloganFast {
+		max-width: 430px;
+		min-width: 320px;
+		width: 100%;
+		height: 91px;
+		margin-top: -47px;
 }		
 }

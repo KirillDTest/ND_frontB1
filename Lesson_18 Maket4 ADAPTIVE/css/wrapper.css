@@ -1,9 +1,13 @@
+@import url('headerNavigation/headerNavigation.css');
+
 @import url('main/main.css');
 
-@import url('headerNavigation/headerNavigation.css');
+
 @import url('headerNavigation/headerNavigationBar/headerNavigationBar.css');
 @import url('headerNavigation/headerNavigationBar/headerNavigationBarMenu.css');
 @import url('headerNavigation/headerNavigationBar/headerNavigationBarLogin.css');
+
+
 
 @import url('main/slogan/slogan.css');
 @import url('main/slogan/sloganFast/sloganFast.css');
@@ -56,7 +60,8 @@
 .wrapper {
 	width: 100%;
 	height: 1716px;
-
+	
+	background-color: black;
 	background-image: url('../img/background.png');
 	background-repeat: no-repeat;
 	background-position: center;

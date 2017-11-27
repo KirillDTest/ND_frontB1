@@ -1,11 +1,14 @@
 .aboutUsBlockGallery {
-	width: 300px;
+	width: 45%;
 	height: 314px;
 	background-color: white;
+
+	align-items: center;
 }
 
 @media screen and (max-width: 768px) {
 	.aboutUsBlockGallery {
+		width: 54%;
 		height: auto;
 	}
 }

@@ -1,5 +1,5 @@
 .contactInformationBlockForm {
-	width: 300px;
+	width: 100%;
 	height: 169px;
 
 	display: flex;
@@ -7,4 +7,17 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+	.contactInformationBlockForm {
+		width: 100%;
+		height: 169px;
+
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-content: space-between;
+}
 }

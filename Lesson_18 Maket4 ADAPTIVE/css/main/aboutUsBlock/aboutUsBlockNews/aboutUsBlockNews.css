@@ -1,5 +1,5 @@
 .aboutUsBlockNews {
-	width: 348px;
+	width: 47%;
 	height: 314px;
 	
 	background-color: white;
@@ -13,7 +13,8 @@
 
 @media screen and (max-width: 992px) {
 	.aboutUsBlockNews {
-		max-width: 300px;
+		height: 350px;
+		/*max-width: 300px;*/
 }
 	.aboutUsBlockNews + img {
 		position: absolute;

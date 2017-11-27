@@ -1,5 +1,6 @@
 .footerBlock {
-	width: 940px;
+	max-width: 940px;
+	width: 90%;
 	height: 193px;
 	
 	margin: 0 auto;
@@ -7,6 +8,17 @@
 	flex-direction: row;
 	justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+	.footerBlock {
+		width: 90%;
+		height: auto;
+		flex-wrap: wrap;
+		justify-content: space-around;
+}
+}
+
+
 
 /*.main {
 	/max-width: 940px;

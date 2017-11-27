@@ -1,5 +1,12 @@
 .contactInformationBlockTitle {
-	width: 323px;
+	width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+	.contactInformationBlockTitle {
+		width: 100%;
+		font-size: 23px;
+}
 }
 
 @media screen and (max-width: 768px) {

@@ -1,4 +1,5 @@
 .headerNavigationBar {
+	width: 90%;
 	height: 72px;
 	
 	box-sizing: border-box;
@@ -11,3 +12,19 @@
 	
 }
 
+/*@media screen and (max-width: 992px) {
+	.headerNavigationBar {
+	width: 60%;
+	height: 72px;
+	
+	box-sizing: border-box;
+	padding: 0 20px 0 20px;
+	margin: 0px;
+	
+	flex-direction: row;
+	justify-content: space-between;
+
+	
+}
+}
+*/

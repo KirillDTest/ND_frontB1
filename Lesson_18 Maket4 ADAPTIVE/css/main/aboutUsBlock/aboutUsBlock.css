@@ -24,6 +24,8 @@
 
 @media screen and (max-width: 768px) {
 	.aboutUsBlock {
+		min-width: 454px;
+		width: 90%;
 		height: 453px;
 		
 		margin: 0px;

@@ -1,6 +1,17 @@
 .aboutUsBlockNewsTitle {
 	color: black;
+
+	align-self: flex-start;
 }
+
+.aboutUsBlockNewsTitle + img {
+			width: 95%;
+			height: auto;
+}
+
+
+
+
 
 @media screen and (max-width: 768px) {
 	.aboutUsBlockNewsTitle {

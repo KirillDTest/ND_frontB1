@@ -11,9 +11,12 @@
 @media screen and (max-width: 768px) {
 	.aboutUsBlockNewsText1 {
 		width: 95%;
-		height: 73px;
+		height: 68px;
 		
 		text-align: center;
 		line-height: 19px;
+}	
+	.aboutUsBlockNewsText1 + input {
+		margin-top: 14px;
 }
 }

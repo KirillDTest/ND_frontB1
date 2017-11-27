@@ -5,8 +5,15 @@
 	margin: 0px;
 }
 
+@media screen and (max-width: 992px) {
+	.contactBlock {
+		padding-right: 40px;
+}
+}
+
 @media screen and (max-width: 768px) {
 	.contactBlock {
 		height: 485px;
+		padding: 15px;
 }
 }

@@ -1,3 +1,9 @@
 .contactInformationBlockFormBtn {
 	width: 300px;
 }
+
+@media screen and (max-width: 992px) {
+	.contactInformationBlockFormBtn {
+		width: 100%;
+}
+}

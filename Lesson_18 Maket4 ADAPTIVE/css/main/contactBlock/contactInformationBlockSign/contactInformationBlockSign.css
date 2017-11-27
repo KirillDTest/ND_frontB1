@@ -1,10 +1,11 @@
 .contactInformationBlockSign {
-	width: 300px;
+	width: 40%;
 	height: 291px;
 }
 
 @media screen and (max-width: 768px) {
 	.contactInformationBlockSign {
+		width: 80%;
 		height: 245px;
 	}
 }
