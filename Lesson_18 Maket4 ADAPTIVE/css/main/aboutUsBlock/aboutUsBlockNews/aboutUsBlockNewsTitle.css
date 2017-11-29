@@ -30,3 +30,18 @@
 			margin-bottom: 5px;
 	}
 }
+
+
+@media screen and (max-width: 576px) {
+	.aboutUsBlockNewsTitle {
+			width: 100%;
+			/*height: auto;*/
+			
+	}
+
+	.aboutUsBlockNewsTitle + img {
+			width: 100%;
+			height: auto;
+			margin: 0;
+	}
+}

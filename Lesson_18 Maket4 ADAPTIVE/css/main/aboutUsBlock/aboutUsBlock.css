@@ -33,5 +33,11 @@
 
 		flex-direction: column;
 }
+}
 
+@media screen and (max-width: 576px) {
+	.aboutUsBlock {
+		min-width: 245px;
+		width: 80%;
+		height: auto;}
 }

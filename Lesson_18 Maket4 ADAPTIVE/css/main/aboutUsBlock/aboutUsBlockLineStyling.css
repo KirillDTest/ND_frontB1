@@ -1,3 +1,29 @@
 .aboutUsBlockLineStyling {
 	margin-left: -25px;
 }
+
+@media screen and (max-width: 992px) {
+	.aboutUsBlockLineStyling {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -129px;
+		margin-left: -4px;
+}
+
+
+@media screen and (max-width: 768px) {
+	.aboutUsBlockLineStyling {transform: rotate(90deg);
+			/*margin-top: -131px;*/
+}
+}
+
+
+
+@media screen and (max-width: 576px) {
+	.aboutUsBlockLineStyling {
+		
+		margin-top: -135px;
+
+
+}

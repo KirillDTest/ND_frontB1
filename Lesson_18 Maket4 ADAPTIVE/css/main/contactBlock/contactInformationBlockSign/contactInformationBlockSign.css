@@ -5,7 +5,14 @@
 
 @media screen and (max-width: 768px) {
 	.contactInformationBlockSign {
-		width: 80%;
+		width: 85%;
 		height: 245px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.contactInformationBlockSign {
+		margin-top: 55px;
+		height: auto;
 	}
 }

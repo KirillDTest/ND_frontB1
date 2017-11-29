@@ -16,6 +16,8 @@
 	box-sizing: border-box;
 }
 
+
+
 @media screen and (max-width: 992px) {
 	.main {
 		/*max-width: 940px;*/
@@ -36,8 +38,13 @@
 		max-width: 450px;
 		min-width: 320px;
 		margin-top: 79px;
-		height: 1450px;
+		height: 1670px;
 }
+
+	.logo > img {
+		width: 310px;
+		height: auto;
+	}
 }
 
 

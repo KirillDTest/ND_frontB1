@@ -29,10 +29,10 @@
 
 @media screen and (max-width: 576px) {
 	.slogan {
-		width: 90%;
+		width: 80%;
 		min-width: 0px;
-		height: 315px;
-
+		height: 330px;
+		margin-top: -29px;
 		flex-wrap: wrap;
 }
 }

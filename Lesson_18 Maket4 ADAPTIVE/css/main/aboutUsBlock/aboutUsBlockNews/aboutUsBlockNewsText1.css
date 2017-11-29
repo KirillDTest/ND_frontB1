@@ -16,7 +16,13 @@
 		text-align: center;
 		line-height: 19px;
 }	
-	.aboutUsBlockNewsText1 + input {
-		margin-top: 14px;
+	/*.aboutUsBlockNewsText1 + input {*/
+		/*margin-top: 14px;*/
+/*}*/
 }
-}
+
+@media screen and (max-width: 576px) {
+	.aboutUsBlockNewsText1 {
+		width: 100%;
+		height: auto;
+		letter-spacing: 0px;
