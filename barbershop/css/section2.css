@@ -1,0 +1,62 @@
+@import url(css/section2_article2.css);
+
+article {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	padding-left: 35px;
+	height: 317px;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#article-name {
+	font-size: 30px;
+	margin-top: 0;
+}
+
+.line {	
+	width: 8px;
+	height: 278px;
+}
+
+.button1 {
+	margin-top: 21px;
+	background-color: black;
+	color: white;
+	width: 140px;
+	height: 51px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+}
+
+.article-text {	
+	margin-top: -5px;
+	margin-bottom: 6px;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.date {
+	font-size: 13px;
+	margin-top: 11px;
+}
+
+.my-button {
+	margin-top: 30px;
+	background-color: black;
+	color: white;
+	width: 130px;
+	height: 56px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	text-indent: 0px;
+}
+
+.buttons_section2 {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	margin-left: -15px;
+}
+

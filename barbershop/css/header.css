@@ -1,0 +1,46 @@
+
+header {
+	height: 72px;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.menu {
+	height: 72px;
+	width: 940px;
+	color: white;
+	font-size: 16px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 8px;
+	box-sizing: border-box;
+}
+
+.entrance {
+	padding-left: 289px;
+	padding-top: 17px;
+	width: 76px;
+	height: 18px;
+	display: flex;
+	flex-direction: row;
+}
+
+#entrance {
+	margin: 0;
+	padding-left: 10px;
+}
+
+@media screen and (max-width: 992px) {
+	header {
+	height: 72px;
+	width: 90%;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	
+}
+}

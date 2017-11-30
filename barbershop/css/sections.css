@@ -1,0 +1,42 @@
+@import url(section1.css);
+@import url(section2.css);
+@import url(section3.css);
+
+
+.section1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 5px;
+	padding-top: 31px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 482px;
+	color: white;
+}
+
+.section2 {
+	width: 100%;
+	height: 419px;
+	background-color: white;
+	margin-top: 15px;
+	padding: 44px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+
+}
+
+.section3 {
+	width: 100%;
+	height: 396px;
+	background-color: white;
+	margin-bottom: 61px;
+	padding: 44px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	
+}
+

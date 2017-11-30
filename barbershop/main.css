@@ -1,0 +1,60 @@
+/*[for="my-button"]::after {
+	content: "";
+	display: block;
+	border: 2px solid silver;
+	background-color: black;
+	width: 100px;
+	height: 100px;
+}
+
+#my-button {
+	display: none;
+}
+
+.menu {
+	display: none;
+}
+
+label {
+	display: block;
+}
+
+#my-button:checked ~ .menu {
+	display: block;
+}/*/
+
+@import url(css/header.css);
+@import url(css/main_content.css);
+@import url(css/footer.css);
+
+
+
+body {
+	margin: 0;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	
+}
+
+.wrapper {
+	width: 2560px;
+	height: 1716px;
+	background-color: #070707;
+	background-image: url(img/tint.png);
+		
+}
+
+@media only screen and (max-width: 992px) {
+	body {
+		width: 75%;
+	}
+
+	.wrapper {
+	width: 1200px;
+	height: 1716px;
+	background-color: #070707;
+	background-image: url(img/tint.png);
+		
+}
+}
+
