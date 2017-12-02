@@ -1,5 +1,6 @@
-var BMI = function(BMI)
+var BodyCalc = function(weight, height)
 {
+var BMI = weight/(height*height);
 if (BMI<18.5)
 	{console.log("недостаточная масса");
 	 return BMI;}
@@ -14,4 +15,4 @@ if (BMI<18.5)
 		      return BMI;}
 		  }
 
-console.log(BMI(22));
+console.log(BodyCalc(57,1.72));
