@@ -15,7 +15,6 @@ footer {
 	justify-content: space-between;
 	align-items: center;
 	color: white;
-
 }
 
 .footer-contacts {
@@ -29,17 +28,12 @@ footer {
 #footer-contacts {
 	width: 352px;
 	height: 100px;
-	
 }
 
 .footer-social {
 	width: 167px;
 	height: 100px;
 	text-align: center;
-}
-
-#solial-icons {
-	
 }
 
 .fa {
@@ -76,11 +70,25 @@ i:hover {
 }
 
 @media screen and (max-width: 992px) {
-	footer {
-		height: 193px;
-		width: 100%;
-		background-color: rgba(200,200,200,0.1);
-		display: flex;
-		justify-content: center;
+	.footer {
+		width: 740px;
+		justify-content: space-around;
+}
+
+	#footer-contacts {
+		width: 165px;
+		height: 100px;
 	}
+}
+
+@media screen and (max-width: 576px) {
+	footer {
+		height: 320px;
+		width: 95%;
+	}
+
+	.footer {
+		width: 100%;
+		height: 250px;
+		flex-wrap: wrap;
 }

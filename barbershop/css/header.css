@@ -35,12 +35,44 @@ header {
 }
 
 @media screen and (max-width: 992px) {
-	header {
-	height: 72px;
-	width: 90%;
-	background-color: black;
-	display: flex;
-	justify-content: center;
-	
+	.menu {
+		width: 740px;
+	}
+
+	.entrance {
+		padding-left: 200px;
+	}
 }
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+	.menu {
+		width: 575px;
+	}
+
+	.entrance {
+		padding-left: 54px;
+	}
+}
+
+@media screen and (max-width: 576px)  {
+	header {
+		height: 148px;
+	}
+
+	.menu {
+		width: 310px;
+		height: 148px;
+		flex-direction: column;
+		font-size: 18px;
+		flex-wrap: wrap;
+	}
+
+	.entrance {
+		padding: 0px;
+
+	}
+
+	#menu-list {
+		margin: 0;
+	}
 }

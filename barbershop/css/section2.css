@@ -3,8 +3,8 @@
 article {
 	display: flex;
 	flex-direction: column;
-	width: 350px;
 	padding-left: 35px;
+	width: 321px;
 	height: 317px;
 	box-sizing: border-box;
 	overflow: visible;
@@ -21,7 +21,7 @@ article {
 }
 
 .button1 {
-	margin-top: 21px;
+	margin-top: 18px;
 	background-color: black;
 	color: white;
 	width: 140px;
@@ -57,6 +57,62 @@ article {
 	display: flex;
 	width: 100%;
 	justify-content: space-around;
-	margin-left: -15px;
+	margin-left: -11px;
+
 }
 
+@media screen and (max-width: 992px) {
+	article {
+		padding-left: 5px;
+	}
+
+	.line {	
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.button1 {
+		margin-top: -1px;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+	article {
+		padding-left: 19px;
+		width: 
+	}
+
+	#article-name {
+		margin-bottom: 15px;
+	}
+
+	.line {	
+		display: none;
+	}
+
+	.article-text {	
+		line-height: 16px;
+	}
+
+	.my-button {
+		margin-top: 15px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.line {	
+		display: none;
+	}
+
+	article {
+		height: 297px;
+		width: 289px;
+	}
+
+	#article-name {
+		margin-bottom: 3px;
+	}
+
+	.article-text {	
+	margin-top: 7px;
+}

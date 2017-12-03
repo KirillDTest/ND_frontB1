@@ -10,6 +10,13 @@
 	line-height: 23px;
 }
 
+.buttons_section3 {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	margin-left: -11px;
+}
+
 form {
 	height: 100%;
 	width: 100%;
@@ -29,6 +36,57 @@ input {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: bold;
 	text-indent: 17px;
+}
+
+@media screen and (max-width: 992px) {
+	#article-contact {
+		width: 287px;
+		margin: 0;
+		line-height: 33px;
+	}
+
+	.contacts {
+		margin-top: 25px;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+	.contacts {
+		width: 197px;
+	}
+
+	.buttons_section3 {
+		width: 154px;
+		flex-wrap: wrap;
+	}
+
+	form {
+		height: 275px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.contacts {
+		margin-top: 6px;
+		width: 243px;
+	}
+
+	.my-button {
+		margin-top: 11px;
+	}
+
+	form {
+		width: 250px;
+	}
+
+	input {
+		width: 240px;
+	}
+
+	.input-form {
+		margin-top: -98px;
+	}
 }
 
 
