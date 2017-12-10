@@ -40,41 +40,58 @@ var arrSum = function(arr) {
 			sum += arr[l];
 		}
 	}
-	return arr=sum;
+	return sum;
 }
 console.log(arrSum([10, 20, 's', 40, 5, 6, 7, 8]));
 
 
 //UNIVERSAL FUNCTION
 //1.14.45 Lesson 24
-var Sums = function(a,b) {
-	if (arguments.length==2) {    //!!!Если мы передаем в арг-ты ф-ии просто набор чисел (или данных), то мы делаем их массивом с пом. arguments b обрабатываем к примеру ф-ией sum (сложение двух чисел)
-		return sum(a,b);
+///////////////////////////////////////////////////////////////////////////////////
+///////////ПЕРВЫЙ ВАРИАНТ (наиболее гибкий, рассчитан для любого кол-ва аргументов)
+///////////////////////////////////////////////////////////////////////////////////
+var Sums = function() {
+  var sumOfEverything=0;
+  for (var i=0, j=arguments.length; i<j; i++) {
+    if (typeof(arguments[i])=="object") {
+	  arguments[i]=arrSum(arguments[i]);
 	}
-
-
-	if (arguments.length>2) {     //Вариант программы, если в качестве аргументов в функцию Sums передается набор чисел и массивов
-		for (var i=0, j=arguments.length; i<j; i++) {
-			if (typeof(arguments[i])=="object") {
-				arguments[i]=arrSum(arguments[i]);
-			}
-		}
-		return arrSum(arguments); //мы передаем в функцию arguments,
-								  //потому что arrSum работает с массивами, 
-								  //т.е. то что в console.log(Sums(10, 20, 30, 40, 5, 6, 7, 8));
-	}							  //arguments сделает его массивом (1.25.00 Lesson 24) и обработает ф-ией сложения чисел в массиве arrSum
-
-
-	if (typeof(a)=='object') {     //!!!Если мы передаем в арг-ты ф-ии массив (его тип - object), то нет необходимости делать массив массивом с пом. arguments, поэтому обрабатываем ф-ией сложения чисел в массиве arrSum
-		return arrSum(a);          //(поскольку массив является обьектом!!!!)
-	} 
-
-
-	return "Wrong arguments";
+	sumOfEverything = sum(arguments[i], sumOfEverything);
+	//Это эквивалентно sumOfEverything += sum(arguments[i]);
+  }
+  return sumOfEverything;
 }
-
 console.log(Sums([10,20,30], 40, 4, [1,2,3]));
+
+///////////////////////////////////////////////////////////////////////////////////
+///////////ВТОРОЙ ВАРИАНТ программы (!!!менее универсальный!!!)////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+// var Sums = function(a,b) {
+// 	if (arguments.length==2) {    //!!!Если мы передаем в арг-ты ф-ии просто набор чисел (или данных),
+// 		return sum(a,b);          //то мы делаем их массивом (НО ТОЛЬКО ВНУТРИ ФУНКЦИИ sum, т.к. если аргументы явл. простыми числами а не массивами, то функция arrSum их не будет складывать!!!) с пом. arguments, 
+// 	}							  //обрабатываем ф-ией sum (сложение двух чисел)
+
+
+// 	if (arguments.length>2) {     //Вариант программы, если в качестве аргументов в функцию Sums передается набор чисел и массивов
+// 		for (var i=0, j=arguments.length; i<j; i++) {
+// 			if (typeof(arguments[i])=="object") {
+// 				arguments[i]=arrSum(arguments[i]);
+// 			}
+// 		}
+// 		return arrSum(arguments); //мы передаем в функцию arguments,
+// 								  //потому что arrSum работает с массивами, 
+// 								  //т.е. то что в console.log(Sums(10, 20, 30, 40, 5, 6, 7, 8));
+// 	}							  //arguments обернет его массивом внутри arrSum (1.25.00 Lesson 24) и обработает ф-ией сложения чисел в массиве arrSum
+
+
+// 	if (typeof(a)=='object') {     //!!!Если мы передаем в арг-ты ф-ии массив (его тип - object), то нет необходимости делать массив массивом с пом. arguments, поэтому обрабатываем ф-ией сложения чисел в массиве arrSum
+// 		return arrSum(a);          //(поскольку массив является обьектом!!!!)
+// 	} 
+
+
+// 	return "Wrong arguments";
+// }
+// console.log(Sums([10,20,30], 40, 4, [1,2,3]));
 // console.log(Sums(10, 20, 30, 40, "5", 6, 7, 8)); 
 // console.log(Sums()); //1.29.50 Lesson24 arguments есть всегда, если аргументы внутрь ф-ии не передаются
 //то массив arguments будет пустым (arguments.length==0). 
-
