@@ -1,18 +1,17 @@
-
-var k=0
-var SortWithIndexes = function(arr){
-    var index=[3,1,4,2]
-    for( var i=0, l=arr.length; i<l; i++){
-        if(arr[i+1]<arr[i]){
-             var a = arr[i]
-      var b = arr[i + 1]
-      arr[i] = b
-      arr[i + 1] = a
-        k++;
+var max = 190;
+var min = 1;
+var maximumOfArr = function(arr) {
+//    for(var i=0,k=arr.length;i<k;i++) {
+//        if (arr[i] == max) {
+//            return max;
+//        }
+//    }
+//    for(var i=0,k=arr.length;i<k;i++) {
+//        if (arr[i] == min) {
+            return min;
         }
-        
     }
-   return index
-    
 }
-console.log(SortWithIndexes([50, 98, 17, 79]))
+console.log(maximumOfArr([1,2,3,4,5,20,100,190,6,7,8,40]));
+max = null;
+console.log(maximumOfArr([1,2,3,4,5,20,100,190,6,7,8,40]));
