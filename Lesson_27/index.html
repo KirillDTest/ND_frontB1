@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://bitwiseshiftleft.github.io/sjcl/sjcl.js"></script>
+</head>
+<body>
+    
+    
+<script>
+        var f1 = (num,key) => (num-key/2)*3*5*7*107;
+        var f2 = (num,key) => (num/107/7/5/3)+(key/2);
+        console.log(f1(50,32));
+        console.log(f2(f1(50,32),32));
+</script>
+</body>
+</html>
