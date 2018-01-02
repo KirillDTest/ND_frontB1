@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(200,100,200);
+            text-align: center;
+            font-size: 20px;
+        }
+        .button{
+          padding: 20px;
+        background-color: aqua;
+          border: 2px solid red;  
+        }
+    </style>
+</head>
+<body>
+
+<button class="button">Click me</button>
+
+<script>
+var myButton=document.querySelector('button');
+myButton.addEventListener('click',function(e) {
+			var block=document.createElement('div');
+	document.body.appendChild(block);
+			block.addEventListener('contextmenu',function(e) {	document.body.removeChild(event.target);           
+			})  
+			var div= document.querySelectorAll('div');          
+			
+            for (var i=0, j=div.length; i<j; i++) {              
+				
+                div[i].innerHTML=i+1;
+			}
+		})
+        
+        
+        
+        
+        
+        
+        
+    </script>    
+</body>
+</html>
