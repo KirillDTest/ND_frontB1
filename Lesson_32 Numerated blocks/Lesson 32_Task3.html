@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lesson 32 Task</title>
+	<style>
+		div {
+			width: 100px;
+			height: 100px;
+			background-color: aqua;
+		}
+	</style>
+</head>
+<body>
+	
+	<button>Create block</button>
+	<script>
+		var btn=document.querySelector('button');
+		btn.addEventListener('click', function(event) {
+			var block=document.createElement('div');
+			document.body.appendChild(block);
+			
+			block.addEventListener('contextmenu', function(event) {
+				window.event.returnValue=false;
+				document.body.removeChild(event.target);            //document.body - это откудого убрать, а 
+				                                                    //event.target - ссылка на обьект вызвавший событие (
+				                                                    //тот на который кликнули правой кнопкой), его и 
+				                                                    //убираем
+				
+				// var div = document.querySelectorAll('div');      //этот блок нужен чтобы при удалении одного из 
+				// for (var i=0, j=div.length; i<j; i++) {          //блоков сохранялась нумерация от 1 до последнего 
+				// 	div[i].innerHTML=i+1;                           //без пробелов	
+				// }
+			})  
+
+			var div = document.querySelectorAll('div');             //эти несколько строк обеспечивают нумерацию всех 
+			for (var i=0, j=div.length; i<j; i++) {                 //блоков
+				div[i].innerHTML=i+1;
+			}
+		})
+	</script>
+</body>
+</html>
