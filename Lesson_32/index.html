@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            font-size: 75px;
+            text-align: center;
+            font-family: monospace;
+            color: crimson;
+            margin: 10px;
+            display: inline-block;
+        }
+        
+        .but {
+            padding: 20px;
+            background-color: gray;
+            color: aqua;
+            border-radius: 30px;
+            border: 2px dotted;
+        }
+        
+        .but:hover {
+            background-color: darkorange;
+            transition: all ease 2s;
+        }
+    </style>
+</head>
+<body>
+    <button class="but">Click me</button>
+<script>
+		var myButton = document.querySelector('button');
+		myButton.addEventListener('click', function(event) {
+			var block = document.createElement('div');
+			document.body.appendChild(block);
+			block.addEventListener('contextmenu', function(event) {
+                document.body.removeChild(event.target);
+        });
+			var myDiv = document.querySelectorAll('div');            
+			for (var i=0, j=myDiv.length; i<j; i++) {                 
+				myDiv[i].innerHTML=i+1;
+			}
+});
+</script>
+</body>
+</html>
