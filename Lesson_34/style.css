@@ -1,0 +1,41 @@
+body {
+    height: 1000vh; 
+}
+
+#container {
+    width: 300px;
+    height: 300px;
+    border: 0.5px solid;
+    border-radius: 5%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    background-color: white;
+    display: none;
+}
+
+#filter {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(40,40,40,0.5);
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+.fa.fa-times {
+    font-size: 34px;
+    border: 3px solid;
+    border-radius: 50%;
+    position: absolute;
+    left: 257px;
+    top: 5px;
+}
+
+#icon:hover {
+    transition: 1s ease;
+    color: #2723A3;
+}

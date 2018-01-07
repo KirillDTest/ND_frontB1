@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/c693068909.js"></script>
+</head>
+<body>
+    <button id="but1">Click me</button>
+    <div id="filter"></div>
+        <div id="container">
+            <i class="fa fa-times" aria-hidden="true" id="icon"></i>
+        </div>  
+<script>
+    var myContainer = document.getElementById('container');
+    var myBut1 = document.getElementById('but1');
+    myBut1.addEventListener('click', function(event){
+        myContainer.style.display = 'block';
+        myFilter.style.display = 'block';
+    }) 
+    var myIcon = document.getElementById('icon');
+    myIcon.addEventListener('click', function(event){
+        myContainer.style.display = 'none';
+        myFilter.style.display = 'none';
+    })
+    var myFilter = document.getElementById('filter');
+    myFilter.addEventListener('click', function(event){
+        myContainer.style.display = 'none';
+        myFilter.style.display = 'none'; 
+    })
+</script>
+</body>
+</html>
