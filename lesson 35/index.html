@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="slider">
+    <div class="poloska"></div>
+  </div>
+
+  <script>
+    var sliderElem = document.getElementById('slider');
+    var poloskaElem = sliderElem.children[0];
+
+    poloskaElem.onmousedown = function(e) {
+      var poloskaCoords = getCoords(poloskaElem);
+      var shiftX = e.pageX - poloskaCoords.left;
+      var sliderCoords = getCoords(sliderElem);
+
+      document.onmousemove = function(e) {
+        var newLeft = e.pageX - shiftX - sliderCoords.left;
+
+        if (newLeft < 0) {
+          newLeft = 0;
+        }
+        var rightEdge = sliderElem.offsetWidth - poloskaElem.offsetWidth;
+        if (newLeft > rightEdge) {
+          newLeft = rightEdge;
+        }
+
+        poloskaElem.style.left = newLeft + 'px';
+      }
+
+      document.onmouseup = function() {
+        document.onmousemove = document.onmouseup = null;
+      };
+
+      return false;
+    };
+
+    poloskaElem.ondragstart = function() {
+      return false;
+    };
+
+    function getCoords(elem) { 
+      var box = elem.getBoundingClientRect();
+
+      return {
+        top: box.top + pageYOffset,
+        left: box.left + pageXOffset
+      };
+
+    }
+  </script>
+
+</body>
+
+</html>
