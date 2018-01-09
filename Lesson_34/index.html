@@ -19,7 +19,7 @@
         myContainer.style.display = 'block';
         myFilter.style.display = 'block';
     }) 
-    var myIcon = document.getElementById('icon');
+    var myIcon =                   document.getElementById('icon');
     myIcon.addEventListener('click', function(event){
         myContainer.style.display = 'none';
         myFilter.style.display = 'none';
@@ -29,6 +29,21 @@
         myContainer.style.display = 'none';
         myFilter.style.display = 'none'; 
     })
+    /////////"DRAG N DROP"//////////////
+    
+    myContainer.addEventListener('mousedown', function(event){
+         document.addEventListener('mousemove', myFunc);
+    });
+    
+    function myFunc(event) {
+        myContainer.style.position = 'absolute';
+        myContainer.style.top = event.pageY + 'px';
+        myContainer.style.left = event.pageX + 'px';
+    }
+    
+    myContainer.addEventListener('mouseup', function(event){
+     document.removeEventListener('mousemove', myFunc);
+});
 </script>
 </body>
 </html>

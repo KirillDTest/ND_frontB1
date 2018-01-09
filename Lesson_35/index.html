@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .line {
+            border-radius: 50%;
+            background-color: orangered;
+            width: 30px;
+            height: 30px;
+            position: relative;
+            top: -8px;
+            cursor: pointer;
+        }
+        
+        #slider {
+              border-radius: 5px;
+              background: #CCE9E6;
+              width: 310px;
+              height: 15px;
+              margin: 40px;
+}
+    </style>
+</head>
+<body>
+    <div id="slider">
+        <div class="line"></div>
+    </div>
+<script>
+    var slider = document.getElementById('slider');
+    var line = slider.children[0];
+
+    line.onmousedown = function(e) {
+      var lineCoords = getCoords(line);
+      var shiftX = e.pageX - lineCoords.left;
+      var sliderCoords = getCoords(slider);
+
+      document.onmousemove = function(e) {
+        var newLeft = e.pageX - shiftX - sliderCoords.left;
+
+        if (newLeft < 0) {
+          newLeft = 0;
+        }
+        var rightEdge = slider.offsetWidth - line.offsetWidth;
+        if (newLeft > rightEdge) {
+          newLeft = rightEdge;
+        }
+
+        line.style.left = newLeft + 'px';
+      }
+
+      document.onmouseup = function() {
+        document.onmousemove = document.onmouseup = null;
+      };
+
+      return false;
+    };
+
+    line.ondragstart = function() {
+      return false;
+    };
+
+    function getCoords(elem) {
+      var box = elem.getBoundingClientRect();
+
+      return {
+        top: box.top + pageYOffset,
+        left: box.left + pageXOffset
+      };
+
+    }
+</script>
+</body>
+</html>
