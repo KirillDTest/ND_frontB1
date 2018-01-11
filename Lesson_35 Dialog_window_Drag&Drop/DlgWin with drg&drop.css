@@ -12,12 +12,10 @@
 .popup {
 	position: fixed;
 	left: 10%;
-	/*right: 0;*/
 	top: 45%;
 	width: 80%;
 	height: 50px;
 	background-color: red;
-	z-index: 1;
 }
 
 .filter, .popup {
