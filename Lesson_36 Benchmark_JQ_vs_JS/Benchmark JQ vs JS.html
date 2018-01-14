@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Benchmark JQ vs JS</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/core.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/platform/1.3.4/platform.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/benchmark/2.1.4/benchmark.min.js"></script>
+	<!-- IT'S VERY IMPORTANT to connect benchmark-library only after lodash and platform, because bechmark demands lodash and platform to itself to work correctly and doesn't work without them, as i understood) 130.20 p.g.Lesson33-->
+	<style>
+		div {
+			width: 100px;
+			height: 100px;
+			background-color: aqua;
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+	<div id="id1"></div>
+	<div></div>
+	<div class="myclass1"></div>
+	<div id="id2"></div>
+	<div id="id1" class="myclass1"></div>
+	
+	<!-- 102.05 P.g.Lesson33 -->
+
+	<!-- benchmark.js, lodash.js, platform.js minified version (min.js) вставляем CDN-ки после title -->
+
+
+	<script>
+
+		//106.20 P.g.Lesson33
+		var suite = new Benchmark.Suite;
+			
+
+
+			suite.add('querySelector', function() {
+				var div1 = document.querySelector('#id1');
+			})
+
+			suite.add('querySelectorAll', function() {
+				var div1 = document.querySelectorAll('#id1');
+			})
+
+			suite.add('getElementById', function() {
+				var div1 = document.getElementById('id1');
+			})
+
+			suite.add('getElementsByClassName', function() {
+				var div1 = document.getElementsByClassName('myclass1');
+			})
+
+			suite.add('JQuerySelector', function() {
+				var div1 = $('#id1');
+			})
+
+
+
+			
+
+		.on('cycle', function(event) {			
+			console.log(String(event.target));
+		})
+
+		.run({'async': true})
+	</script>
+</body>
+</html>
