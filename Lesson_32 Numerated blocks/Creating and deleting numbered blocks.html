@@ -1,3 +1,12 @@
+
+<!-- Кратко о том, что от вас требуется сделать:
+Кнопку, которая при нажатии на неё создаёт новый div. 
+
+Каждый div должен иметь свою нумерацию. Первый div, созданный кнопкой, должен содержать в себе число, которое будет его порядковым номером. Первый div -- число 1. Второй div -- число 2. И т.д.
+
+Клик правой кнопкой мыши по div должен удалять этот div. Чтобы удалить именно тот div, вспомните про аргумент event и про свойство target у event. -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +21,6 @@
 	</style>
 </head>
 <body>
-	
 	<button>Create block</button>
 	<script>
 		var btn=document.querySelector('button');
@@ -22,7 +30,7 @@
 			
 			block.addEventListener('contextmenu', function(event) {
 				window.event.returnValue=false;
-				document.body.removeChild(event.target);            //document.body - это откудого убрать, а 
+				document.body.removeChild(event.target);            //document.body - это откуда убрать, а 
 				                                                    //event.target - ссылка на обьект вызвавший событие (
 				                                                    //тот на который кликнули правой кнопкой), его и 
 				                                                    //убираем

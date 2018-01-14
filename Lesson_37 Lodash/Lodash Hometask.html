@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lodash Practice</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+</head>
+<body>
+	
+<!-- ------------------------------------------------------------------- -->
+<!-- http://www.codeabbey.com/index/task_view/maximum-of-array--ru -->
+<!-- ------------------------------------------------------------------	 -->
+	<script>
+///////////////////////////////////////////////////////////
+/////Создаем массив непарных до 300 и парных до 0 чисел////
+		var arr=[];
+		for (var i=1; i<300; i++) {
+			if (i%2==0) {}
+			else {arr.push(i);}
+		}
+
+		for (var i=300; i>0; i--) {
+			if (i%2!=0) {}
+			else {arr.push(i);}
+		}
+///////////////////////////////////////////////////////////
+
+		console.log(arr);        //см. на созданный массив
+		console.log(_.max(arr));
+	</script>
+
+
+<!-- ------------------------------------------------------------------- -->
+<!-- http://www.codeabbey.com/index/task_view/average-of-array--ru -->
+<!-- ------------------------------------------------------------------	 -->
+	<script>
+		function f_average(arr) {
+			var average=_.mean(arr);
+			return Math.round(average);
+		}
+
+		console.log(f_average([2,3,7]));
+		console.log(f_average([20,10]));
+		console.log(f_average([1]));
+	</script>
+
+
+<!-- ------------------------------------------------------------------- -->
+<!-- http://www.codeabbey.com/index/task_view/array-counters--ru -->
+<!-- ------------------------------------------------------------------	 -->
+	<script>
+		var trees=[1,2,3];
+		var forest=[1,2,3,2,3,1,1,1,1,3];
+
+		var z =_.map(trees, function(trees) {             //на каждой итерации берем по-очереди элементы массива trees
+			var y = _.filter(forest, function(forest) {   //вызываем функцию, которая вернет массив значений который совпадают с элементом массива trees    
+				return forest==trees;                     //сравниваем весь массив (лес) с  видом дерева                   
+
+														  //filter возвращает массив значений (кол-во деревьев в лесу), которые совпадают с текущим элементом массива trees (вид дерева)
+			})
+			return y.length;                              //в trees-ый элемент массива записываем длину массива _.filter
+		});
+		console.log(z);
+	</script>
+
+</body>
+</html>
