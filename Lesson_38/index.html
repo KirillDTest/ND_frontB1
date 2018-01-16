@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    
+    
+    <style>    
+        #carousel-container {
+            opacity: 0;
+            transition-duration: 1s;
+            width: 700px;
+            margin: 0 auto;
+        }
+        
+        .slick-initialized .slick-slide {
+            display: flex;
+        }
+        
+        #carousel-container.slick-initialized {
+            opacity: 1;
+        }
+        
+        .slick-slide {
+            border: 2px solid;
+            background-color: aqua;
+            width: 700px;
+            box-sizing: border-box;
+        }
+/*
+        .slick-next:before, .slick-prev:before {
+            color: black;
+        }
+*/
+        
+        .myPrevArrow {
+            position: absolute;
+            left: 275px;
+            top: 153px;
+        }
+        
+        .myNextArrow {
+            position: absolute;
+            left: 1050px;
+            top: 153px;
+        }
+    </style>
+</head>
+<body>
+<div id="carousel-container">
+    <div class="carousel-content">
+    <div><img src="1.jpg" alt="" height="300px" width="350px"></div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti doloremque perspiciatis voluptatum odio est doloribus molestiae quidem delectus corporis tempore autem, ad quibusdam iusto facilis consequatur magni nam unde quisquam animi porro, minima vero? Tempora iusto optio voluptatum cumque repellendus nihil cum voluptates quisquam, ipsa soluta officia ipsum sed saepe?</div>
+    </div>
+    <div class="carousel-content">
+    <div><img src="2.jpg" alt="" height="300px" width="350px"></div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus laboriosam incidunt necessitatibus quod quae, nam saepe. Ipsa rem, iure odio! Velit nulla iure perspiciatis sed, odio culpa perferendis accusamus nobis enim consequuntur pariatur veritatis distinctio, expedita, consequatur eveniet tempore rem assumenda nisi eaque iste repellendus aut voluptatibus tenetur omnis. Debitis?</div>
+    </div>
+    <div class="carousel-content">
+    <div><img src="3.jpg" alt="" height="300px" width="350px"></div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, cum optio reiciendis dolorum sequi dicta id cupiditate praesentium beatae adipisci architecto, saepe eos consequuntur consequatur voluptatum modi harum ullam excepturi. Quibusdam dicta provident repellendus quaerat qui nemo repudiandae inventore harum recusandae quas, cupiditate earum nobis voluptatibus</div>
+    </div>
+    <div class="carousel-content">
+    <div><img src="4.jpg" alt="" height="300px" width="350px"></div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae itaque blanditiis quidem architecto asperiores inventore est eum tenetur voluptatum fugiat? Perspiciatis laudantium repudiandae sapiente, quisquam praesentium ipsam, saepe consequuntur tempora sit totam dolor illum accusamus. Possimus reiciendis impedit deleniti quas, cupiditate earum nobis voluptatibus eligendi </div>
+    </div>
+</div>
+<button class="myNextArrow">Next</button>
+<button class="myPrevArrow">Prev</button>
+    <script>
+        $('#carousel-container').slick({
+            variableWidth: true,
+            nextArrow: $('.myNextArrow'),
+            prevArrow: $('.myPrevArrow'),
+            arrow: false,
+            dots: true
+        })
+    </script>
+</body>
+</html>
