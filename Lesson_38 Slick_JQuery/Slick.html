@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Slick</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+	<style>	
+		
+		* {
+			margin: 0;
+		}
+
+		body {
+			display: flex;
+		}
+
+		.wrapper {
+			width: 400px;
+			display: flex;
+			margin: 0 auto;
+			align-items: center;	
+		}
+
+		.slick-slide.carousel-content   {
+			display: flex;
+			width: 300px;
+			height: 200px;
+			box-sizing: border-box;
+			align-items: center;
+		}
+
+
+		button {
+			position: relative;
+			height: 30px;
+		}
+
+
+		.myNextArrow {
+			right: 0;
+		}
+
+		.myPrevArrow {
+			left: 0;
+			order: -1;
+		}
+
+
+		#carousel-container {
+			
+			opacity: 0;
+			transition-duration: 1s;
+			width: 300px;
+			margin: 0 auto;	
+		}
+
+		.img {
+			width: 50%;	
+			/*height: 50px;*/
+			margin: 5px;
+		}
+
+		p {
+			width: 50%;
+		}
+
+
+		#carousel-container.slick-initialized {
+			opacity: 1;
+		}
+
+		.slick-slide {
+			border: 2px solid black;
+			background-color: aqua;
+			width: 300px;
+			box-sizing: border-box;
+		}
+
+		.slick-next, .slick-prev {
+			background-color: black;
+			/*display: none;*/
+		}
+	</style>
+</head>
+<body>
+<div class="wrapper">
+	
+	<div id="carousel-container">
+		<div class="carousel-content">
+			<img src="tree.jpg" alt="" class='img'>
+			<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nisi, modi hic neque illo similique quasi, earum cum quo?</p>
+		</div>
+		<div class="carousel-content">
+			<img src="apple.jpg" alt="" class='img'>
+			<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nisi, modi hic neque illo similique quasi, earum cum quo?</p>
+		</div>
+		<div class="carousel-content">
+			<img src="peach.jpg" alt="" class='img'>
+			<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nisi, modi hic neque illo similique quasi, earum cum quo?</p>
+		</div>
+		<div class="carousel-content">
+			<img src="pear.jpg" alt="" class='img'>
+			<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nisi, modi hic neque illo similique quasi, earum cum quo?</p>
+		</div>
+	</div>
+	<button class="myPrevArrow">Prev</button>
+	<button class="myNextArrow">Next</button>
+</div>
+
+	<script>
+		$('#carousel-container').slick({
+			variableWidth: true,
+			nextArrow: $('.myNextArrow'),
+			prevArrow: $('.myPrevArrow'),
+			arrow: false,
+			dots: true
+
+		})
+	</script>
+	
+</body>
+</html>
