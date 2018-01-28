@@ -10,6 +10,12 @@
 	express с задачей построения страниц товара и наполнение их
 	данными з БД справляется намного быстрее (1.07.15L43)
 
+include includes/current.jade
+//Этот инклуд для того чтобы при записи 
+//prepend headerName
+//    h1 #{items[current].description} смогу распознаться файлом header.jade
+// в нем тоже этот инклуд есть
+
 extends index.jade
 block content
 	block variables
@@ -19,6 +25,7 @@ block content
 		p(class='store-item_desc') Description #{items[current].description}
 		p(class='store-item_price') Price: #{items[current].price}
 		button Buy
+		-console.log(items.cap1.price)
 prepend content
 	style.
 		.store-item {height: 540px; border: 2px solid black; background-color: #fff; box-shadow: 5px 5px 5px black;width: 300px; padding: 10px; flex-wrap: wrap;}

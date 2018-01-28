@@ -5,6 +5,11 @@ html
 		link(href='style/main.css' rel='stylesheet')
 	body
 		include includes/header.jade
-		- var items= {cap1:{price: '49$', description: 'Yankees', img: 'img/Cap1.jpg', link: 'Cap1.html'}, cap2:{price: '99$', description: 'Many Yankees', img: 'img/Cap2.jpg', link: 'Cap2.html'}, cap3:{price: '50$', description: 'Cap text', img: 'img/Cap3.jpg'}}
+
+		//такой болшой ассоциативный массив данных о товарах лучше хранить в отдельном файле
+		//так как он может понадобиться еще какому-то файлу *.jade (header.jade в моем случае)
+		//в ином случае header не смог бы инклудить template.jade иначе он перестроится неправильно
+		include includes/CapCollection.jade
+
 		block content
 		include includes/footer.jade

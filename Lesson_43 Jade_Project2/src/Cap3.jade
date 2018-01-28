@@ -13,4 +13,10 @@ extends uniq.jade
 block variables
 	- var current='cap3'
 block headerName
-	h1 Colorful caps
+	h1 #{items.cap1.description}
+
+//Добавляем block styles (в файле template.jade)
+//еще одну ссылку стилей для страницы товара cap1.jade
+//1.41.30-1.43.00 Lesson43
+append styles
+	link(rel="stylesheet", href="style/3.css")
