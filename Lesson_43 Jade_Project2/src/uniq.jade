@@ -1,0 +1,37 @@
+//
+	1.05.25 Lesson43
+	при клике в списке товаров на главной странице, мы переходим на 
+	страницу конкретного товара
+
+	этот файл мы используем как шаблон для каждого из наших товаров
+	cap1, cap2 ..capN
+	этот файл наследуют файлы товаров cap1.jade ... capN.jade
+
+	express с задачей построения страниц товара и наполнение их
+	данными з БД справляется намного быстрее (1.07.15L43)
+
+extends index.jade
+block content
+	block variables
+		- var current='cap1'
+	div(class='store-item')
+		img(src=items[current].img)
+		p(class='store-item_desc') Description #{items[current].description}
+		p(class='store-item_price') Price: #{items[current].price}
+		button Buy
+prepend content
+	style.
+		.store-item {height: 540px; border: 2px solid black; background-color: #fff; box-shadow: 5px 5px 5px black;width: 300px; padding: 10px; flex-wrap: wrap;}
+
+
+
+	//1.21.05 Lesson43
+	//при клике на страницу каког-то товара (cap1...capN)
+	//нужна кнопка возврата на гл. стр. (index.html)
+	//для этого добвъавляем к блоку headerContent (в header.jade)
+	//кнопку со ссылкой перехода
+	//поскольку этот файл наследуется всеми страницами товаров
+	//то она появиится на всех страницах (cap1.jade-capN.jade)
+prepend headerContent
+	button(class='main')
+		a(href='/') Back to main

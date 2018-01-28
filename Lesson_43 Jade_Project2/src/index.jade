@@ -1,0 +1,18 @@
+//
+	этот файл выводит полный список товаров на одной странице с кратким описанием каждого
+
+extends template.jade
+block content
+	div(class='content')
+		each v,i in items
+			div(class='store-item')
+				img(src=v.img)
+				p(class='store-item_desc') Description #{v.description}
+				p(class='store-item_price') Price: #{v.price}
+				button
+					//1.17.40 Lesson43
+					//если v.link !=undefined (т.е. ссылка в асс.массиве есть), то вставляем ссылку, если нет - placeholder 
+					if v.link
+						a(href=v.link)=i
+					else
+						p placeholder

@@ -1,0 +1,16 @@
+//
+	для того чтобы шаблон uniq.jade построил страницу товара cap1.jade
+	нам нужно в блоке block variables переопределить значение 
+	переменной current на назв. нашего товара в асс.массиве items
+	(в данном случае это current=cap3)
+
+	также в наследованном header.jade переопределяем название товара
+	в шапке, для этого в 
+	block headerName
+		указываем название нашего товара Colorful caps
+
+extends uniq.jade
+block variables
+	- var current='cap3'
+block headerName
+	h1 Colorful caps
