@@ -1,0 +1,14 @@
+extends template.jade
+block content
+    div(class='content')
+        each v,i in items
+            div(class='store-item')
+                img(src=v.img)
+                p(class='store-item_desc') Description: #{v.description}
+                p(class='store-item_price') Price: #{v.price}
+                button buy
+                &nbsp &nbsp
+                if v.link
+                    a(href=v.link)=i
+                else
+                    span link doesn't work

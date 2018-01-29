@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+    body
+        -var exclamation = '!!!!'
+        p!= '<span>Hello</span>'
+        p <strong>hello</strong>
+        p #[strong #{exclamation}] <!-- а так, чтобы мы могли вставить какуе то переменную -->
+        div 
+            <strong>hello</strong>
+            <em>Hi</em>
+        block testblock
+            h1 test
+            block child
+                h2 child
+        p.myclass1#myid1 HELLO JADE
