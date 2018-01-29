@@ -1,0 +1,13 @@
+doctype html
+html 
+    head
+        block styles
+        link(href='style/main.css' rel='stylesheet')
+    body
+        include includes/header.jade
+        - var items= {item1: { price: '49$', description: 'Amazing cap', img:'img/1.jpg', link:'/1.html' }, item2: { price: '59$', description: 'Not so amazing cap', img:'img/2.jpg', link:'/2.html' }, item3: { price:'99$', description: 'good cap', img: 'img/3.jpg', link:'/3.html' }} 
+        block content
+        include includes/footer.jade
+        
+
+

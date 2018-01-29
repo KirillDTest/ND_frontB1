@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+    body
+        -var exclamation  = '!!!!'
+        p!= '<span>Hello</span>'
+        p <strong>Hello </strong>
+        p #[strong World !]
+        block testblock
+          h1 test
+          block child
+            h2 child
+        p.myclass1#myid1(1312='123')    

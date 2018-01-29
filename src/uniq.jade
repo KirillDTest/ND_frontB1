@@ -1,0 +1,9 @@
+extends template.jade
+block content
+    block vars
+        - var item = 'item1';
+    div(class='store-item')    
+        img(src=items[item].img)
+        p(class='store-item_desc')= 'Description: ' + items[item].description
+        p(class='store-item_price') Price:  #{items[item].price}  
+        button buy  		
