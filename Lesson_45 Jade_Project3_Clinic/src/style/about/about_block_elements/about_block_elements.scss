@@ -1,0 +1,24 @@
+.about_block_elements {
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: -90px;
+
+	& > div {
+		width:162px;
+		height:162px;
+		border-radius: 10px;
+		background-color: #ffffff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		& > img {
+			margin: 0 auto;
+		}
+	}
+}
+
+div.about_block_elements__tonometer {
+		background-color: #69d3e8;
+}

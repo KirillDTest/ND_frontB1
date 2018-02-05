@@ -1,0 +1,23 @@
+.header_logo {
+	width: 227px;
+	height: 48px;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	
+	& > img {
+		position: absolute;
+		left: 9px;
+
+		& + p {
+			z-index: 1;
+			color: white;
+			font-size: 60px;
+			margin-top: -20px;
+		}
+	}
+
+	& > div {
+		margin-left: -25px;
+	}
+}

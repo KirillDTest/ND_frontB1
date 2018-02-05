@@ -1,0 +1,32 @@
+.header-block {
+	width: 100%;
+	height: 500px;
+	background-color: #69d3e8;
+	display: flex;
+	// flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 40px 20px 50px 30px;
+	box-sizing: border-box;
+}
+
+.header_Line {
+	width: 100%;
+	height: 10px;
+	background-color: orange;
+}
+
+.header_welcome {
+	width: 335px;
+	height: 120px;
+	// background-color: white;
+	align-self: center;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+    position: relative;
+    left: -100px;
+
+	& > span {
+		font-size: 80px;
+	}
+}
