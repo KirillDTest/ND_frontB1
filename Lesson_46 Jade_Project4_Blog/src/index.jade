@@ -1,0 +1,66 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		title Document
+		link(href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet")
+		link(rel='stylesheet' href='style/main.css')
+	body
+		div(class='wrapper')
+			div(class='BlogName') blog
+			div(class='linkBlock')
+				a(href='#' class='aAllSwitch')
+					strong all
+				a(href='#' class='aSwitch') creative kitchen
+				a(href='#' class='aSwitch') art
+				a(href='#' class='aSwitch') design
+				a(href='#' class='aSwitch') life events
+			div(class='block')
+				div(class='block_img') 560x560
+				div(class='block_text')
+					div(class='block_text__title')
+						b we have created the best event
+					div(class='block_text__date') 16 november 2015
+						div(class='block_text__Line')
+					div(class='block_text__Text') Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+					button Learn more
+			div(class='block')
+				div(class='block_img') 560x560
+				div(class='block_text')
+					div(class='block_text__title')
+						b how to make a good design?
+					div(class='block_text__date') 11 november 2015
+						div(class='block_text__Line')
+					div(class='block_text__Text') Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+					button Learn more
+			div(class='block')
+				div(class='block_img') 560x560
+				div(class='block_text')
+					div(class='block_text__title')
+						b we have created the best event
+					div(class='block_text__date') 16 november 2015
+						div(class='block_text__Line')
+					div(class='block_text__Text') Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+					button Learn more
+			div(class='block')
+				div(class='block_img') 560x560
+				div(class='block_text')
+					div(class='block_text__title')
+						b how to make a good design?
+					div(class='block_text__date') 11 november 2015
+						div(class='block_text__Line')
+					div(class='block_text__Text') Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+					button Learn more
+			div(class='transition_button')
+				button(class='black_button') Show more
+			script.
+				var aAll = document.querySelector('.aAllSwitch')
+				aAll.addEventListener('click', f_switchAll)
+				var a = document.querySelectorAll('.aSwitch')
+				var blocks = document.querySelectorAll('.block')
+				for (var i=0, j=a.length; i<j; i++) {a[i].addEventListener('click', f_switch)}
+				function f_switch(e) {for (var k=0, j=a.length; k<j; k++) {if (a[k]==e.target)	{break;}}console.log(k);for (var i=0, j=blocks.length; i<j; i++) {if (blocks[i].className.indexOf('hide')==-1) {console.log(blocks[i].className);blocks[i].classList.add('hide');}}blocks[k].classList.remove('hide');}
+				function f_switchAll(e) {for(var i=0, j=blocks.length; i<j; i++) {blocks[i].classList.remove('hide');}}
+			
+
+

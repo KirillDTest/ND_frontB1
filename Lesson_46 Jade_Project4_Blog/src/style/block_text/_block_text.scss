@@ -1,0 +1,40 @@
+.block_text {
+	padding: 10px;
+	width: 560px;
+	height: 560px;
+	// background-color: yellow;
+	font-size: 18px;
+	font-weight: 300;
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+	box-sizing: border-box;
+}
+
+.block_text__title {
+		margin-top: -103px;
+		width: 398px;
+		height: 85px;
+		font-size: 48px;
+		font-weight: 700;
+		line-height: 40px;
+}
+
+.block_text__Line {
+	margin-top: 20px;
+	width: 55px;
+	height: 1px;
+	background-color: black;
+}
+
+.block_text__date {
+	width: 170px;
+	height: 14px;
+}
+
+.block_text__Text {
+	margin-top: 50px;
+	width: 474px;
+	height: 126px;
+	line-height: 27px;
+}
